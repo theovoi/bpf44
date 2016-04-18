@@ -1,0 +1,16 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.head{
+    background-color: #00A2E3;
+    height:56em;
+}
+
+.no-touch #cd-vertical-nav .cd-dot {
+    height:30px!important;
+    width: 30px!important;
+    background-color: none!important;
+}

@@ -8,9 +8,12 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/reset.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,11 +24,78 @@
     <![endif]-->
 </head>
 <body>
-<h1>Hello, world!</h1>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<nav id="cd-vertical-nav">
+    <ul>
+        <li>
+            <a href="#section1" data-number="1">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Intro</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section2" data-number="2">
+                <span class="cd-dot"></span>
+                <span class="cd-label">About</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section3" data-number="3">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Features</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section4" data-number="4">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Portfolio</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section5" data-number="5">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Pricing</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section6" data-number="6">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Contact</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
+
+<section id="section1" class="cd-section">
+
+    <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
+</section><!-- cd-section -->
+
+<section id="section2" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+</section><!-- cd-section -->
+
+<section id="section3" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+</section><!-- cd-section -->
+
+<section id="section4" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+</section><!-- cd-section -->
+
+<section id="section5" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+</section><!-- cd-section -->
+
+<section id="section6" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+</section><!-- cd-section -->
+
+
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/npm.js"></script>
 </body>
