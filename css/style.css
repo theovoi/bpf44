@@ -13,7 +13,7 @@ body {
 .no-touch #cd-vertical-nav .cd-dot {
     height:30px!important;
     width: 30px!important;
-    background-color: none!important;
+    background-color: transparent !important;
 }
 .triangledown{
     width: 0;
@@ -113,16 +113,20 @@ body {
     left: -5em !important;
     top:-45em;
 }
-#section6{
+#section6 {
     z-index: 35 !important;
-    transform:rotate(1deg);
-    -ms-transform:rotate(1deg); /* Internet Explorer */
-    -moz-transform:rotate(1deg); /* Firefox */
-    -webkit-transform:rotate(1deg); /* Safari et Chrome */
-    -o-transform:rotate(1deg); /* Opera */
+    transform: rotate(1deg);
+    -ms-transform: rotate(1deg); /* Internet Explorer */
+    -moz-transform: rotate(1deg); /* Firefox */
+    -webkit-transform: rotate(1deg); /* Safari et Chrome */
+    -o-transform: rotate(1deg); /* Opera */
     min-height: 100em !important;
     position: relative !important;
     min-width: 265em !important;
     left: -5em !important;
-
+}
+.back{
+    background-image: url("../img/backg.jpg");
+    background-position: center;
+    background-size: cover;
 }

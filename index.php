@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Briollay Pop Festival</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/reset.css">
@@ -30,35 +30,41 @@
         <li>
             <a href="#section1" data-number="1">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Intro</span>
+                <span class="cd-label">Accueil</span>
             </a>
         </li>
         <li>
             <a href="#section2" data-number="2">
                 <span class="cd-dot"></span>
-                <span class="cd-label">About</span>
+                <span class="cd-label">À Propos</span>
             </a>
         </li>
         <li>
             <a href="#section3" data-number="3">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Features</span>
+                <span class="cd-label">Vidéo</span>
             </a>
         </li>
         <li>
             <a href="#section4" data-number="4">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Portfolio</span>
+                <span class="cd-label">Programmation</span>
             </a>
         </li>
         <li>
             <a href="#section5" data-number="5">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Pricing</span>
+                <span class="cd-label">Artistes</span>
             </a>
         </li>
         <li>
             <a href="#section6" data-number="6">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Tickets</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section7" data-number="7">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Contact</span>
             </a>
@@ -67,10 +73,15 @@
 </nav>
 <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
+<<<<<<< HEAD
 <section id="section1" class="cd-section">
     <div class="triangledown"></div>
     <div class="triangledownbordure"></div>
     <p class="triangledowntext">UN TEXTE</p>
+=======
+<section id="section1" class="cd-section back">
+
+>>>>>>> b901e56e031f5adc608c614e9f059bd1f36ff242
     <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
 </section><!-- cd-section -->
 <section id="section2" class="cd-section">
@@ -90,6 +101,10 @@
 </section><!-- cd-section -->
 
 <section id="section6" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+</section><!-- cd-section -->
+
+<section id="section7" class="cd-section">
     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 

@@ -14,17 +14,6 @@ html * {
   box-sizing: border-box;
 }
 
-body {
-  font-size: 100%;
-  font-family: "Ubuntu", sans-serif;
-  color: #3e3947;
-  background-color: white;
-}
-
-body, html {
-  height: 100%;
-}
-
 a {
   color: #3e3947;
   text-decoration: none;
@@ -177,11 +166,11 @@ Main components
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
   /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
-  top: 8px;
+  top: 2px;
   height: 12px;
   width: 12px;
+  border: solid white 3px;
   border-radius: 50%;
-  background-color: #d88683;
   -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
   -moz-transition: -moz-transform 0.2s, background-color 0.5s;
   transition: transform 0.2s, background-color 0.5s;
@@ -196,8 +185,9 @@ Main components
   margin-right: 10px;
   padding: .4em .5em;
   color: white;
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 20px;
+  font-size: 1,3em;
+  font-weight: bold;
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;
   transition: transform 0.2s, opacity 0.2s;
