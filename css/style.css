@@ -14,3 +14,9 @@ body {
     width: 30px!important;
     background-color: none!important;
 }
+
+.back{
+    background-image: url("../img/backg.jpg");
+    background-position: center;
+    background-size: cover;
+}

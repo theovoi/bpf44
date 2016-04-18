@@ -30,35 +30,41 @@
         <li>
             <a href="#section1" data-number="1">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Intro</span>
+                <span class="cd-label">Accueil</span>
             </a>
         </li>
         <li>
             <a href="#section2" data-number="2">
                 <span class="cd-dot"></span>
-                <span class="cd-label">About</span>
+                <span class="cd-label">À Propos</span>
             </a>
         </li>
         <li>
             <a href="#section3" data-number="3">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Features</span>
+                <span class="cd-label">Vidéo</span>
             </a>
         </li>
         <li>
             <a href="#section4" data-number="4">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Portfolio</span>
+                <span class="cd-label">Programmation</span>
             </a>
         </li>
         <li>
             <a href="#section5" data-number="5">
                 <span class="cd-dot"></span>
-                <span class="cd-label">Pricing</span>
+                <span class="cd-label">Artistes</span>
             </a>
         </li>
         <li>
             <a href="#section6" data-number="6">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Tickets</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section7" data-number="7">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Contact</span>
             </a>
@@ -67,7 +73,7 @@
 </nav>
 <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
-<section id="section1" class="cd-section">
+<section id="section1" class="cd-section back">
 
     <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
 </section><!-- cd-section -->
@@ -89,6 +95,10 @@
 </section><!-- cd-section -->
 
 <section id="section6" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+</section><!-- cd-section -->
+
+<section id="section7" class="cd-section">
     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 
