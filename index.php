@@ -74,9 +74,20 @@
 <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
 <section id="section1" class="cd-section back">
-    <div class="triangledown"></div>
-    <div class="triangledownbordure"></div>
-    <p class="triangledowntext">UN TEXTE</p>
+    <div class="col-md-12">
+        <div class="col-md-3 div1textegauche">
+            <p>22 BRUMERE 1792 DREDI 27:00</p>
+        </div>
+        <div class="col-md-6">
+            <div class="triangledown"></div>
+            <div class="triangledownbordure"></div>
+            <p class="triangledowntext">BRIOLLAY POP FESTIVAL</p>
+            <p class="triangledownsstext">presents</p>
+        </div>
+        <div class="col-md-3 div1textedroite">
+            <p>MIAMI BEACH</p>
+        </div>
+    </div>
     <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
 </section><!-- cd-section -->
 
