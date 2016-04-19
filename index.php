@@ -92,8 +92,13 @@
 </section><!-- cd-section -->
 
 <section id="section2" class="cd-section">
-    <div id="div2"></div>
-    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+    <div id="div2">
+
+        <div class="col-md-12 lefestival"></div>
+
+
+        </div>
+    </div>
 </section><!-- cd-section -->
 
 <section id="section3" class="cd-section">
