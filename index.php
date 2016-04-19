@@ -81,6 +81,7 @@
 </section><!-- cd-section -->
 
 <section id="section2" class="cd-section">
+    <div id="div2"></div>
     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 
