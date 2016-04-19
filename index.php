@@ -73,19 +73,15 @@
 </nav>
 <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
-<<<<<<< HEAD
-<section id="section1" class="cd-section">
+<section id="section1" class="cd-section back">
     <div class="triangledown"></div>
     <div class="triangledownbordure"></div>
     <p class="triangledowntext">UN TEXTE</p>
-=======
-<section id="section1" class="cd-section back">
-
->>>>>>> b901e56e031f5adc608c614e9f059bd1f36ff242
     <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
 </section><!-- cd-section -->
-<section id="section2" class="cd-section">
 
+<section id="section2" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 
 <section id="section3" class="cd-section">
