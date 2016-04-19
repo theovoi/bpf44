@@ -86,22 +86,27 @@
 </section><!-- cd-section -->
 
 <section id="section3" class="cd-section">
+    <div id="div3"></div>
     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 
 <section id="section4" class="cd-section">
+    <div id="div4"></div>
     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 
 <section id="section5" class="cd-section">
+    <div id="div5"></div>
     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 
 <section id="section6" class="cd-section">
+    <div id="div6"></div>
     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 
 <section id="section7" class="cd-section">
+    <div id="div7"></div>
     <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 </section><!-- cd-section -->
 
