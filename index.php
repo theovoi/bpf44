@@ -40,7 +40,7 @@
 </section>
 <section id="section3">
     <div id="div3"></div>
-    <iframe class="section3video" src="https://www.youtube.com/embed/dsDTJ__jioo" frameborder="0" allowfullscreen></iframe>
+    <iframe class="section3video"  src="https://www.youtube.com/embed/dsDTJ__jioo" frameborder="0" allowfullscreen></iframe>
 </section>
 
 <section id="section4">
