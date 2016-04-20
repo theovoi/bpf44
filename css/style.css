@@ -225,8 +225,7 @@ h2{
     min-width: 101%;
 }
 #div3{
-    background-size: cover;
-    z-index: 0!important;
+    z-index: 30;
     position: relative;
     background-color: #3e3947;
     transform:rotate(3deg);
