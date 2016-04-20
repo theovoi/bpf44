@@ -1,4 +1,3 @@
-<!-- emmanuellorenzo.fr -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +60,9 @@
 
 
 <script src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js">
 <script src="js/main.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/tub.js"></script>
 </body>
 </html>
