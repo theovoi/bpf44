@@ -24,6 +24,7 @@
         </div>
         <h1>MEURTHE & MOSELLE</h1>
         <h2> ★ FESTIVAL ★</h2>
+        <div class="section1penche"><p class="section1textpenche">L'EVENEMENT LE PLUS ATTENDU</p> </div>
     </div>
 </section>
 <section id="section2">

@@ -107,7 +107,7 @@ h1{
     color: white;
     text-align: center;
     font-size: 50px;
-    top:-8em;
+    top:-12em;
 }
 h2{
     position: relative;
@@ -115,7 +115,28 @@ h2{
     color: white;
     text-align: center;
     font-size: 65px;
-    top: -6em;
+    top: -9em;
+}
+.section1penche{
+    background-color: blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    position: relative;
+    min-height: 6em;
+    width: 20%;
+    border-top: 1em solid #3e3947;
+    border-right: 60em solid transparent;
+    top:-40em;
+}
+.section1textpenche{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    min-width: 30em !important;
+    z-index: 3;
+    position: relative;
 }
 
 
@@ -160,7 +181,7 @@ h2{
 #section1{
     z-index: 1;
     background-color: #3e3947;
-    min-height: 90em;
+    min-height: 100em;
 }
 #section2{
     z-index: 1;
