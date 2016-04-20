@@ -10,6 +10,7 @@ body{
 .head{
     background-color: #00A2E3;
     height:56em;
+    z-index: 99;
 }
 
 .no-touch #cd-vertical-nav .cd-dot {
@@ -133,6 +134,18 @@ body{
     top:-7em;
     min-width: 101%;
 }
+
+.lefestival {
+    transform:rotate(3deg)!important;
+    -ms-transform:inherit; /* Internet Explorer */
+    -moz-transform:inherit; /* Firefox */
+    -webkit-transform:inherit; /* Safari et Chrome */
+    -o-transform:inherit; /* Opera */
+    height:26em;
+    margin-top: 5px!important;
+
+}
+
 #div3{
     z-index: 30;
     position: relative;

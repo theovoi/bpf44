@@ -17,11 +17,9 @@
             <p class="triangledownsstext">presents</p>
     </div>
 </section>
-
 <section id="section2">
     <div id="div2"></div>
 </section>
-
 <section id="section3">
     <div id="div3"></div>
 </section>
