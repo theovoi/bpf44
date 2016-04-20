@@ -84,6 +84,42 @@ body{
     padding-top: 1em !important;
     border-bottom: 2px solid white !important;
 }
+#section1{
+    z-index: 1;
+    background-color: #3e3947;
+    min-height: 90em;
+}
+#section2{
+    z-index: 1;
+    background-color: #745360;
+    min-height: 70em;
+}
+#section3{
+    z-index: 1;
+    background-color: #3e3947;
+    min-height: 70em;
+}
+#section4{
+    z-index: 1;
+    background-color: #745360;
+    min-height: 70em;
+}
+#section5{
+    z-index: 1;
+    background-color: #3e3947;
+    min-height: 70em;
+}
+#section6{
+    z-index: 1;
+    background-color: #745360;
+    min-height: 70em;
+}
+#section7{
+    z-index: 1;
+    background-color: #3e3947;
+    min-height: 70em;
+}
+
 #div2{
     z-index: 30;
     position: relative;
