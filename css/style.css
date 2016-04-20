@@ -6,7 +6,9 @@ body {
 body{
     overflow-x: hidden;
 }
-
+img{
+    width: 100%;
+}
 .head{
     background-color: #00A2E3;
     height:56em;
@@ -69,22 +71,74 @@ body{
     font-weight: bold !important;
     color:white !important;
 }
-.div1textegauche p{
+.sectiontextgauche{
     color: white !important;
     font-weight: bold !important;
     font-size: 25px !important;
-    width: 40% !important;
+    width: 8% !important;
     padding-top: 1em !important;
     border-bottom: 2px solid white !important;
+    z-index: 2;
+    position: relative;
+    top: -45em;
+    left: 10%;
+    display: inline;
 }
-.div1textedroite p{
+.sectiontextdroite{
     color: white !important;
     font-weight: bold !important;
     font-size: 25px !important;
-    width: 40% !important;
+    width: 8% !important;
     padding-top: 1em !important;
     border-bottom: 2px solid white !important;
+    z-index: 2;
+    position: relative;
+    top: -45em;
+    right: 10%;
+    float: right;
+    display: inline;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section et Div*/
 #section1{
     z-index: 1;
     background-color: #3e3947;
@@ -134,18 +188,6 @@ body{
     top:-7em;
     min-width: 101%;
 }
-
-.lefestival {
-    transform:rotate(3deg)!important;
-    -ms-transform:inherit; /* Internet Explorer */
-    -moz-transform:inherit; /* Firefox */
-    -webkit-transform:inherit; /* Safari et Chrome */
-    -o-transform:inherit; /* Opera */
-    height:26em;
-    margin-top: 5px!important;
-
-}
-
 #div3{
     z-index: 30;
     position: relative;

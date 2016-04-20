@@ -15,10 +15,13 @@
             <div class="triangledownbordure"></div>
             <p class="triangledowntext">BRIOLLAY POP FESTIVAL</p>
             <p class="triangledownsstext">presents</p>
+            <p class="sectiontextgauche">22 JOINT 1995</p>
+            <p class="sectiontextdroite">PAPA OURS</p>
     </div>
 </section>
 <section id="section2">
-    <div id="div2"></div>
+    <div id="div2">
+    </div>
 </section>
 <section id="section3">
     <div id="div3"></div>
