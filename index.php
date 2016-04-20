@@ -12,19 +12,13 @@
 <body>
 <section id="section1">
     <div class="col-md-12">
-            <div class="triangledown"></div>
-            <div class="triangledownbordure"></div>
-            <p class="triangledowntext">BRIOLLAY POP FESTIVAL</p>
-            <p class="triangledownsstext">presents</p>
-        <div class="section1divgauche">
-            <p class="section1textgauche">22 JOINT 1995</p>
-        </div>
-        <div class="section1divdroite">
-            <p class="sectiontextdroite">PAPA OURS</p>
-        </div>
-        <h1>MEURTHE & MOSELLE</h1>
-        <h2> ★ FESTIVAL ★</h2>
-        <div class="section1penche"><p class="section1textpenche">L'EVENEMENT LE PLUS ATTENDU</p> </div>
+        <div class="triangledown"></div>
+        <div class="triangledownbordure"></div>
+        <div class="section1divgauche"></div>
+        <div class="section1divdroite"></div>
+        <h1>BRIOLLAY FESTIVAL</h1>
+        <div class="section1penche"></div>
+        <h2>MACHIN / BIDULE / TRUC / TRUCMUHE /  SAL AKA SON ALTESSE DE BRIONNE AKA GORDITO</h2>
     </div>
 </section>
 <section id="section2">
