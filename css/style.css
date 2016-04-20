@@ -71,34 +71,52 @@ img{
     font-weight: bold !important;
     color:white !important;
 }
-.sectiontextgauche{
+.section1divgauche{
+    width: 8% !important;
+    z-index: 2;
+    position: relative;
+    top: -80em;
+    left: 10%;
+    float: left;
+}
+.section1textgauche{
     color: white !important;
     font-weight: bold !important;
     font-size: 25px !important;
-    width: 8% !important;
-    padding-top: 1em !important;
-    border-bottom: 2px solid white !important;
     z-index: 2;
     position: relative;
-    top: -45em;
-    left: 10%;
-    display: inline;
+}
+.section1divdroite{
+    width: 8% !important;
+    z-index: 2;
+    position: relative;
+    top: -80em;
+    right: 10%;
+    float: right;
 }
 .sectiontextdroite{
     color: white !important;
     font-weight: bold !important;
     font-size: 25px !important;
-    width: 8% !important;
-    padding-top: 1em !important;
-    border-bottom: 2px solid white !important;
     z-index: 2;
     position: relative;
-    top: -45em;
-    right: 10%;
-    float: right;
-    display: inline;
 }
-
+h1{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    top:-8em;
+}
+h2{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    top: -6em;
+}
 
 
 

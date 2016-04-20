@@ -1,3 +1,4 @@
+<!-- emmanuellorenzo.fr -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +16,14 @@
             <div class="triangledownbordure"></div>
             <p class="triangledowntext">BRIOLLAY POP FESTIVAL</p>
             <p class="triangledownsstext">presents</p>
-            <p class="sectiontextgauche">22 JOINT 1995</p>
+        <div class="section1divgauche">
+            <p class="section1textgauche">22 JOINT 1995</p>
+        </div>
+        <div class="section1divdroite">
             <p class="sectiontextdroite">PAPA OURS</p>
+        </div>
+        <h1>MEURTHE & MOSELLE</h1>
+        <h2> ★ FESTIVAL ★</h2>
     </div>
 </section>
 <section id="section2">
