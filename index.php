@@ -40,10 +40,28 @@
 </section>
 <section id="section3">
     <div id="div3"></div>
+    <iframe class="section3video" src="https://www.youtube.com/embed/dsDTJ__jioo" frameborder="0" allowfullscreen></iframe>
 </section>
 
 <section id="section4">
     <div id="div4"></div>
+    <h3>LE FESTIVAL</h3>
+    <div class="bloc1section4">
+        <p>19h00 :</p>
+        <p>20h00 :</p>
+        <p>21h00 :</p>
+        <p>22h00 :</p>
+        <p>23h00 :</p>
+        <p>00h00 :</p>
+    </div>
+    <div class="bloc2section4">
+        <p>19h00 :</p>
+        <p>20h00 :</p>
+        <p>21h00 :</p>
+        <p>22h00 :</p>
+        <p>23h00 :</p>
+        <p>00h00 :</p>
+    </div>
 </section>
 
 <section id="section5">

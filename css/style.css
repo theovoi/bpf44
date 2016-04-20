@@ -15,11 +15,6 @@ img{
     z-index: 99;
 }
 
-.no-touch #cd-vertical-nav .cd-dot {
-    height:30px!important;
-    width: 30px!important;
-    background-color: none !important;
-}
 
 /*section1*/
 .triangledown{
@@ -40,7 +35,7 @@ img{
     border-top: 20em solid white;
     border-left: 20em solid transparent;
     border-right: 20em solid transparent;
-    z-index: 59;
+    z-index: 34;
     position: relative;
     top:-19em;
     display: block;
@@ -49,7 +44,7 @@ img{
 }
 .section1divgauche{
     width: 15% !important;
-    z-index: 2;
+    z-index: 34;
     position: relative;
     top: -30em;
     left: 10%;
@@ -58,7 +53,7 @@ img{
 }
 .section1divdroite{
     width: 15% !important;
-    z-index: 2;
+    z-index: 34;
     position: relative;
     top: -30em;
     right: 10%;
@@ -67,7 +62,7 @@ img{
 }
 h1{
     position: relative;
-    z-index: 2;
+    z-index: 34;
     color: white;
     text-align: center;
     font-size: 70px;
@@ -75,7 +70,7 @@ h1{
 }
 h2{
     position: relative;
-    z-index: 2;
+    z-index: 34;
     color: white;
     text-align: center;
     font-size: 50px;
@@ -90,7 +85,7 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    z-index: 2;
+    z-index: 34;
     position: relative;
     min-height: 6em;
     width: 20%;
@@ -133,8 +128,40 @@ h2{
     position: relative;
     left: 10%;
 }
-
-
+/*Section 3*/
+.section3video{
+    position: relative;
+    z-index: 25;
+    min-height: 40em !important;
+    min-width: 100% !important;
+    min-height: 50em !important;
+    min-width: 100% !important;
+    top: -23em;
+}
+/*Section4*/
+.bloc1section4{
+    border: 5px solid black;
+    width: 10%;
+    top: -15em;
+    position: relative;
+    z-index: 35;
+    float: right;
+    font-size: 30px;
+}
+.bloc2section4{
+    border: 5px solid black;
+    width: 10%;
+    font-size: 30px;
+}
+#section4 h3{
+    position: relative;
+    z-index: 35;
+    color: black;
+    font-size: 40px;
+    top:-12em;
+    right: 10%;
+    float: right;
+}
 
 
 
@@ -171,7 +198,7 @@ h2{
 
 /*Section et Div*/
 #section1{
-    z-index: 1;
+    z-index: 32;
     background-color: #3e3947;
     background: url("../img/backg.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -181,17 +208,17 @@ h2{
     min-height: 60em;
 }
 #section2{
-    z-index: 1;
+    z-index: 4;
     background-color: #c79b74;
     min-height: 50em;
 }
 #section3{
     z-index: 1;
-    background-color: #3e3947;
-    min-height: 50em;
+    background-color: #745360;;
+    min-height: 30em;
 }
 #section4{
-    z-index: 1;
+    z-index: 4;
     background-color: #745360;
     min-height: 50em;
 }
@@ -227,16 +254,15 @@ h2{
 #div3{
     z-index: 30;
     position: relative;
-    background-color: #3e3947;
+    background-color:#c79b74;
     transform:rotate(3deg);
     -ms-transform:rotate(3deg); /* Internet Explorer */
     -moz-transform:rotate(3deg); /* Firefox */
     -webkit-transform:rotate(3deg); /* Safari et Chrome */
     -o-transform:rotate(3deg); /* Opera */
     min-height: 30em;
-    top:-7em;
+    top:-18em;
     min-width: 101%;
-    right: 1%;
 }
 #div4{
     z-index: 30;
@@ -248,7 +274,7 @@ h2{
     -webkit-transform:rotate(-3deg); /* Safari et Chrome */
     -o-transform:rotate(-3deg); /* Opera */
     min-height: 30em;
-    top:-7em;
+    top:-25em;
     min-width: 101%;
 }
 #div5{
