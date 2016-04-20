@@ -39,13 +39,8 @@
     </div>
 </section>
 <section id="section3">
-<<<<<<< HEAD
-    <div id="div3"></div>
-    <iframe class="section3video"  src="https://www.youtube.com/embed/dsDTJ__jioo" frameborder="0" allowfullscreen></iframe>
-=======
     <div id="div3">
     </div>
->>>>>>> d20f719f3c113e1bf4833cba00cf87e5093dfd3c
 </section>
 
 <section id="section4">

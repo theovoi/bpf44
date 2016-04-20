@@ -132,6 +132,7 @@ h2{
 .section3video{
     position: relative;
     z-index: 25;
+    min-height: 40em !important;
     min-width: 100% !important;
     min-height: 50em !important;
     min-width: 100% !important;
