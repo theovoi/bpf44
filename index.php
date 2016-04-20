@@ -16,7 +16,7 @@
         <div class="triangledownbordure"></div>
         <div class="section1divgauche"></div>
         <div class="section1divdroite"></div>
-        <h1>BRIOLLAY FESTIVAL</h1>
+        <h1>BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
         <h2>MACHIN / BIDULE / TRUC / TRUCMUHE /  MACHIN / MACHIN / MACHIN</h2>
     </div>
@@ -39,8 +39,13 @@
     </div>
 </section>
 <section id="section3">
+<<<<<<< HEAD
     <div id="div3"></div>
     <iframe class="section3video"  src="https://www.youtube.com/embed/dsDTJ__jioo" frameborder="0" allowfullscreen></iframe>
+=======
+    <div id="div3">
+    </div>
+>>>>>>> d20f719f3c113e1bf4833cba00cf87e5093dfd3c
 </section>
 
 <section id="section4">
@@ -73,13 +78,20 @@
 </section>
 
 <section id="section7">
-    <div id="div7"></div>
+    <div id="div7">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86285.2161906081!2d-0.6329741673030626!3d47.48186712574794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878da00e58e9d%3A0x40d37521e0d9c30!2sAngers!5e0!3m2!1sfr!2sfr!4v1461183300479" width="1500" height="850" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="section6">
+    <div id="div8"></div>
 </section>
 
 
-
 <script src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
 <script src="js/main.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/tub.js"></script>
 </body>
 </html>
