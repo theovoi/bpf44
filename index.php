@@ -18,11 +18,24 @@
         <div class="section1divdroite"></div>
         <h1>BRIOLLAY FESTIVAL</h1>
         <div class="section1penche"></div>
-        <h2>MACHIN / BIDULE / TRUC / TRUCMUHE /  SAL AKA SON ALTESSE DE BRIONNE AKA GORDITO</h2>
+        <h2>MACHIN / BIDULE / TRUC / TRUCMUHE /  MACHIN / MACHIN / MACHIN</h2>
     </div>
 </section>
 <section id="section2">
-    <div id="div2">
+    <div id="div2"></div>
+    <h3>LE FESTIVAL</h3>
+    <div id="totalsection2">
+        <div class="blocsection2">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Animi blanditiis, cum dolor est fugiat id incidunt minima mollitia nam,
+                neque nobis placeat qui quia quidem quis recusandae sunt unde, voluptatum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Animi blanditiis, cum dolor est fugiat id incidunt minima mollitia nam,
+                neque nobis placeat qui quia quidem quis recusandae sunt unde, voluptatum.
+            </p>
+        </div>
+        <div class="carresection2"></div>
     </div>
 </section>
 <section id="section3">

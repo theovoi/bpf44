@@ -21,13 +21,7 @@ img{
     background-color: none !important;
 }
 
-/*
-.back{
-    background-image: url("../img/backg.jpg");
-    background-position: center;
-    background-size: cover;
-}
-*/
+/*section1*/
 .triangledown{
     width: 0;
     height: 0;
@@ -104,9 +98,41 @@ h2{
     border-right: 60em solid transparent;
     top:-19em;
 }
-
-
-
+/*section2*/
+#section2 h3{
+    position: relative;
+    z-index: 35;
+    color: white;
+    font-size: 40px;
+    top:-10em;
+    left: 10%;
+}
+.blocsection2{
+    background-color: #f2d4ba;
+    position: relative;
+    z-index: 35;
+    width: 70%;
+}
+.blocsection2 p{
+    width: 50%;
+    color:white;
+    font-size: 20px;
+}
+.carresection2{
+    background-color: #554641;
+    position: relative;
+    z-index: 36;
+    min-height: 10em;
+    min-height: 13em;
+    width: 30%;
+    left: 50%;
+    top: -8em;
+}
+#totalsection2{
+    top: -28em;
+    position: relative;
+    left: 10%;
+}
 
 
 
@@ -152,37 +178,37 @@ h2{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 70em;
+    min-height: 60em;
 }
 #section2{
     z-index: 1;
     background-color: #c79b74;
-    min-height: 70em;
+    min-height: 50em;
 }
 #section3{
     z-index: 1;
     background-color: #3e3947;
-    min-height: 70em;
+    min-height: 50em;
 }
 #section4{
     z-index: 1;
     background-color: #745360;
-    min-height: 70em;
+    min-height: 50em;
 }
 #section5{
     z-index: 1;
     background-color: #3e3947;
-    min-height: 70em;
+    min-height: 50em;
 }
 #section6{
     z-index: 1;
     background-color: #745360;
-    min-height: 70em;
+    min-height: 50em;
 }
 #section7{
     z-index: 1;
     background-color: #3e3947;
-    min-height: 70em;
+    min-height: 50em;
 }
 
 #div2{
