@@ -148,7 +148,7 @@ h2{
 .bloc1section4{
     border: 5px solid black;
     width: 10%;
-    top: -15em;
+    top: -10em;
     position: relative;
     z-index: 35;
     float: right;
@@ -158,13 +158,18 @@ h2{
     border: 5px solid black;
     width: 10%;
     font-size: 30px;
+    top: -15em;
+    right: 8%;
+    position: relative;
+    z-index: 35;
+    float: right;
 }
 #section4 h3{
     position: relative;
     z-index: 35;
     color: black;
     font-size: 40px;
-    top:-12em;
+    top:-14em;
     right: 10%;
     float: right;
 }
@@ -187,15 +192,16 @@ h2{
 }
 #section3{
     z-index: 1;
-    background-color: #745360;;
+    background-color: #745360;
     min-height: 40em;
+    max-height: 40em;
 }
 #section4{
     z-index: 4;
     background-color: #745360;
     min-height: 50em;
     position: relative;
-    top:5em;
+    top: 10em;
 }
 #section5{
     z-index: 1;
@@ -236,8 +242,8 @@ h2{
     -moz-transform:rotate(0deg); /* Firefox */
     -webkit-transform:rotate(0deg); /* Safari et Chrome */
     -o-transform:rotate(0deg); /* Opera */
-    min-height: 50em;
     min-width: 101%;
+    min-height: 50em !important;
 }
 #div4{
     z-index: 30;
