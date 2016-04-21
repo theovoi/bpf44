@@ -91,7 +91,7 @@
 
 <section id="section4">
     <div id="div4"></div>
-    <h3 id="museo">LE FESTIVAL</h3>
+    <h3 id="museo">LE PROGRAMME</h3>
     <div class="bloc1section4">
         <p>19h00 :</p>
         <p>20h00 :</p>
