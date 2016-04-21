@@ -1,4 +1,3 @@
-<!-- emmanuellorenzo.fr -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +7,8 @@
     <title>Briollay Pop Festival</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="css/hover-min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 </head>
 <body>
 <section id="section1">
@@ -16,16 +17,16 @@
         <div class="triangledownbordure"></div>
         <div class="section1divgauche"></div>
         <div class="section1divdroite"></div>
-        <h1>BRIOLLAY POP FESTIVAL</h1>
+        <h1 class="animated fadeInDown">BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
-        <h2>MACHIN / BIDULE / TRUC / TRUCMUHE /  MACHIN / MACHIN / MACHIN</h2>
+        <h2 class="animated fadeInUp">MACHIN / BIDULE / TRUC / TRUCMUHE /  MACHIN / MACHIN / MACHIN</h2>
     </div>
 </section>
 <section id="section2">
     <div id="div2"></div>
-    <h3>LE FESTIVAL</h3>
+    <h3 class="animated bounceInLeft">LE FESTIVAL</h3>
     <div id="totalsection2">
-        <div class="blocsection2">
+        <div class="blocsection2 animated fadeInDown">
             <p>
                 "Dieu acheva au septième jour son œuvre: et il se reposa au septième jour de toute son œuvre.
 
@@ -34,7 +35,7 @@
                 Ainsi les Freaks créèrent le BPF ."
             </p>
         </div>
-        <div class="carresection2">
+        <div class="carresection2 hvr-grow-shadow animated fadeInUp">
         </div>
     </div>
 </section>
