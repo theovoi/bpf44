@@ -18,7 +18,9 @@
         <div class="section1divgauche"></div>
         <div class="section1divdroite"></div>
         <h1 class="animated fadeInDown" id="museo">BRIOLLAY POP FESTIVAL</h1>
-        <div class="section1penche"></div>
+        <div class="section1penche">
+            <!--<h2 id="museo">Freaks Beers & Sun</h2>-->
+        </div>
         <div id="carousel-example" class="carousel slide slider" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="row">
