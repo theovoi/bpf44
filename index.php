@@ -35,7 +35,7 @@
                 Ainsi les Freaks créèrent le BPF ."
             </p>
         </div>
-        <div class="carresection2 hvr-grow-shadow animated fadeInUp">
+        <div class="carresection2 hvr-grow-shadow">
         </div>
     </div>
 </section>
