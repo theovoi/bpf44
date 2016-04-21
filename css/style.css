@@ -223,6 +223,11 @@ h2{
     background-color: #3e3947;
     min-height: 50em;
 }
+#section8{
+    z-index: 1;
+    background-color: #745360;
+    min-height: 50em;
+}
 
 #div2{
     z-index: 30;
@@ -275,20 +280,6 @@ h2{
     min-height: 30em;
     top:-7em;
     min-width: 101%;
-}
-#div7{
-    z-index: 30;
-    position: relative;
-    background-color: #3e3947;
-    transform:rotate(3deg);
-    -ms-transform:rotate(3deg); /* Internet Explorer */
-    -moz-transform:rotate(3deg); /* Firefox */
-    -webkit-transform:rotate(3deg); /* Safari et Chrome */
-    -o-transform:rotate(3deg); /* Opera */
-    min-height: 30em;
-    top:-7em;
-    min-width: 101%;
-    right: 1%;
 }
 
 @@font-face {

@@ -73,12 +73,10 @@
 </section>
 
 <section id="section7">
-    <div id="div7">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86285.2161906081!2d-0.6329741673030626!3d47.48186712574794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878da00e58e9d%3A0x40d37521e0d9c30!2sAngers!5e0!3m2!1sfr!2sfr!4v1461183300479" width="1500" height="850" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
 </section>
 
-<section id="section6">
+<section id="section8">
     <div id="div8"></div>
 </section>
 
