@@ -66,7 +66,6 @@
 </section>
 
 <section id="section5">
-    <div id="div5"></div>
 </section>
 
 <section id="section6">
