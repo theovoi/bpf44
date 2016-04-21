@@ -35,7 +35,9 @@
                 neque nobis placeat qui quia quidem quis recusandae sunt unde, voluptatum.
             </p>
         </div>
-        <div class="carresection2"></div>
+        <div class="carresection2">
+            <img src="img/festival.jpg" alt="festival" style="padding: 4px 4px 4px 4px;">
+        </div>
     </div>
 </section>
 <section id="section3">
