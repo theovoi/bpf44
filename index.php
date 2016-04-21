@@ -17,7 +17,7 @@
         <div class="triangledownbordure"></div>
         <div class="section1divgauche"></div>
         <div class="section1divdroite"></div>
-        <h1 class="animated fadeInDown">BRIOLLAY POP FESTIVAL</h1>
+        <h1 class="animated fadeInDown" id="titlehead">BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
         <h2 class="animated fadeInUp">MACHIN / BIDULE / TRUC / TRUCMUHE /  MACHIN / MACHIN / MACHIN</h2>
     </div>

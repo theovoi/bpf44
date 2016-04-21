@@ -15,6 +15,9 @@ img{
     z-index: 99;
 }
 
+#titlehead {
+    font-family: 'museo900regular' !important;
+}
 
 /*section1*/
 .triangledown{
@@ -297,3 +300,10 @@ h2{
     min-width: 101%;
     right: 1%;
 }
+
+@@font-face {
+    font-family: 'museo900regular';
+    src: url('fonts/museo900regular.eot');
+    src: local('museo900regular'), url('fonts/museo900regular.woff') format('woff'), url('fonts/museo900regular.ttf') format('truetype');
+}
+
