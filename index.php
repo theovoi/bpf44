@@ -19,7 +19,7 @@
         <div class="section1divdroite"></div>
         <h1 class="animated fadeInDown" id="museo">BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
-        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example" class="carousel slide slider" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="row">
                 <div class="col-xs-offset-3 col-xs-6">
@@ -61,7 +61,6 @@
             <a class="right carousel-control" href="#carousel-example" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
-
         </div>
         <!-- <h2 class="animated fadeInUp">MACHIN / BIDULE / TRUC / TRUCMUHE /  MACHIN / MACHIN / MACHIN</h2>-->
     </div>

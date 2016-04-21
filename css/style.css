@@ -319,7 +319,6 @@ h2 {
 
 .carousel-content {
     color: white;
-    display: flex;
     align-items: center;
     text-align: center;
     font-family: 'Conv_Museo700-Regular';
@@ -328,14 +327,17 @@ h2 {
 
 .carousel-content h3 {
     color: white;
-    display: flex;
     align-items: center;
     text-align: center;
     font-family: 'Conv_Museo700-Regular';
     font-size: 40px;
 
 }
-
+.slider{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 .carousel {
     top: -12em;
 }
