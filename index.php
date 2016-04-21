@@ -40,8 +40,8 @@
     </div>
 </section>
 <section id="section3">
-    <div id="div3">
-    </div>
+    <div id="div3"></div>
+    <div id="divideo"></div>
 </section>
 
 <section id="section4">

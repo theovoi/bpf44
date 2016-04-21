@@ -143,15 +143,7 @@ h2{
     left: 10%;
 }
 /*Section 3*/
-.section3video{
-    position: relative;
-    z-index: 25;
-    min-height: 40em !important;
-    min-width: 100% !important;
-    min-height: 50em !important;
-    min-width: 100% !important;
-    top: -23em;
-}
+
 /*Section4*/
 .bloc1section4{
     border: 5px solid black;
@@ -196,12 +188,14 @@ h2{
 #section3{
     z-index: 1;
     background-color: #745360;;
-    min-height: 30em;
+    min-height: 40em;
 }
 #section4{
     z-index: 4;
     background-color: #745360;
     min-height: 50em;
+    position: relative;
+    top:5em;
 }
 #section5{
     z-index: 1;
@@ -233,17 +227,16 @@ h2{
     min-width: 101%;
 }
 #div3{
-    z-index: 0;
+    z-index: 0 !important;
     background-size: cover;
     position: relative;
     background-color:#c79b74;
-    transform:rotate(3deg);
-    -ms-transform:rotate(3deg); /* Internet Explorer */
-    -moz-transform:rotate(3deg); /* Firefox */
-    -webkit-transform:rotate(3deg); /* Safari et Chrome */
-    -o-transform:rotate(3deg); /* Opera */
-    min-height: 30em;
-    top:-18em;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg); /* Internet Explorer */
+    -moz-transform:rotate(0deg); /* Firefox */
+    -webkit-transform:rotate(0deg); /* Safari et Chrome */
+    -o-transform:rotate(0deg); /* Opera */
+    min-height: 50em;
     min-width: 101%;
 }
 #div4{
@@ -256,7 +249,7 @@ h2{
     -webkit-transform:rotate(-3deg); /* Safari et Chrome */
     -o-transform:rotate(-3deg); /* Opera */
     min-height: 30em;
-    top:-25em;
+    top:-10em;
     min-width: 101%;
 }
 #div5{
