@@ -188,7 +188,8 @@ h2{
 #section2{
     z-index: 4;
     background-color: #c79b74;
-    min-height: 50em;
+    min-height: 20em;
+    max-height: 40em;
 }
 #section3{
     z-index: 1;
