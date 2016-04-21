@@ -19,7 +19,51 @@
         <div class="section1divdroite"></div>
         <h1 class="animated fadeInDown" id="titlehead">BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
-        <h2 class="animated fadeInUp">MACHIN / BIDULE / TRUC / TRUCMUHE /  MACHIN / MACHIN / MACHIN</h2>
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="row">
+                <div class="col-xs-offset-3 col-xs-6">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="carousel-content">
+                                <div>
+                                    <h3>Os Noctambulos / The Blind Suns
+                                        <br> Botine / Graal
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-content">
+                                <div>
+                                    <h3>Terreur Passion : Fleur d'Occident
+                                        <br> Libido Fuzz / Humbros
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-content">
+                                <div>
+                                    <h3>Os Noctambulos / The Blind Suns
+                                        <br> Botine / Graal
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Controls --> <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+        <!-- <h2 class="animated fadeInUp">MACHIN / BIDULE / TRUC / TRUCMUHE /  MACHIN / MACHIN / MACHIN</h2>-->
     </div>
 </section>
 <section id="section2">

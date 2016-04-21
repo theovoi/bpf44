@@ -16,7 +16,7 @@ img{
 }
 
 #titlehead {
-    font-family: 'museo900regular' !important;
+    font-family: 'Conv_Museo700-Regular';
 }
 
 /*section1*/
@@ -283,9 +283,40 @@ h2{
     min-width: 101%;
 }
 
-@@font-face {
-    font-family: 'museo900regular';
-    src: url('fonts/museo900regular.eot');
-    src: local('museo900regular'), url('fonts/museo900regular.woff') format('woff'), url('fonts/museo900regular.ttf') format('truetype');
+@font-face {
+    font-family: 'Conv_Museo700-Regular';
+    src: url('fonts/Museo700-Regular.eot');
+    src: local('☺'), url('fonts/Museo700-Regular.woff') format('woff'), url('fonts/Museo700-Regular.ttf') format('truetype'), url('fonts/Museo700-Regular.svg') format('svg');
+    font-weight:lighter;
+    font-style: normal;
+}}
+
+.carousel-content {
+    color:white;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    font-family: museo900regular;
+
 }
 
+.carousel-content h3 {
+    color:white;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    font-family: museo900regular;
+    font-size: 40px;
+
+}
+
+.carousel {
+    top: -12em;
+}
+.carousel-control.right {
+    background-image: none!important;
+}
+
+.carousel-control.left {
+    background-image: none!important;
+}
