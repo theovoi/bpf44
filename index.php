@@ -17,7 +17,7 @@
         <div class="triangledownbordure"></div>
         <div class="section1divgauche"></div>
         <div class="section1divdroite"></div>
-        <h1 class="animated fadeInDown" id="titlehead">BRIOLLAY POP FESTIVAL</h1>
+        <h1 class="animated fadeInDown" id="museo">BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
         <div id="carousel-example" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
@@ -68,7 +68,7 @@
 </section>
 <section id="section2">
     <div id="div2"></div>
-    <h3 class="animated bounceInLeft">LE FESTIVAL</h3>
+    <h3 id="museo" class="animated bounceInLeft">LE FESTIVAL</h3>
     <div id="totalsection2">
         <div class="blocsection2 animated fadeInDown">
             <p>
@@ -90,7 +90,7 @@
 
 <section id="section4">
     <div id="div4"></div>
-    <h3>LE FESTIVAL</h3>
+    <h3 id="museo">LE FESTIVAL</h3>
     <div class="bloc1section4">
         <p>19h00 :</p>
         <p>20h00 :</p>
