@@ -3,15 +3,18 @@ body {
     width: 100%;
     height: 100%;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-img{
+
+img {
     width: 100%;
 }
-.head{
+
+.head {
     background-color: #00A2E3;
-    height:56em;
+    height: 56em;
     z-index: 99;
 }
 
@@ -19,7 +22,7 @@ img{
     font-family: 'Conv_Museo700-Regular';
     src: url('../fonts/Museo700-Regular.eot');
     src: local('☺'), url('../fonts/Museo700-Regular.woff') format('woff'), url('../fonts/Museo700-Regular.ttf') format('truetype'), url('../fonts/Museo700-Regular.svg') format('svg');
-    font-weight:lighter;
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -28,7 +31,7 @@ img{
 }
 
 /*section1*/
-.triangledown{
+.triangledown {
     width: 0;
     height: 0;
     border-top: 15em solid #372f2c;
@@ -40,7 +43,8 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.triangledownbordure{
+
+.triangledownbordure {
     width: 0;
     height: 0;
     border-top: 20em solid white;
@@ -48,12 +52,13 @@ img{
     border-right: 20em solid transparent;
     z-index: 34;
     position: relative;
-    top:-19em;
+    top: -19em;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.section1divgauche{
+
+.section1divgauche {
     width: 15% !important;
     z-index: 34;
     position: relative;
@@ -62,7 +67,8 @@ img{
     float: left;
     border-bottom: white solid 5px;
 }
-.section1divdroite{
+
+.section1divdroite {
     width: 15% !important;
     z-index: 34;
     position: relative;
@@ -71,27 +77,30 @@ img{
     float: right;
     border-bottom: white solid 5px;
 }
-h1{
+
+h1 {
     position: relative;
     z-index: 34;
     color: white;
     text-align: center;
     font-size: 70px;
-    top:-4em;
+    top: -4em;
 }
-h2{
+
+h2 {
     position: relative;
     z-index: 34;
     color: white;
     text-align: center;
     font-size: 50px;
-    top:-4em;
+    top: -4em;
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.section1penche{
+
+.section1penche {
     background-color: white;
     display: block;
     margin-left: auto;
@@ -102,18 +111,20 @@ h2{
     width: 20%;
     border-top: 2em solid white;
     border-right: 60em solid transparent;
-    top:-19em;
+    top: -19em;
 }
+
 /*section2*/
-#section2 h3{
+#section2 h3 {
     position: relative;
     z-index: 35;
     color: white;
     font-size: 40px;
-    top:-10em;
+    top: -10em;
     left: 10%;
 }
-.blocsection2{
+
+.blocsection2 {
     background-color: #f2d4ba;
     position: relative;
     z-index: 35;
@@ -122,19 +133,20 @@ h2{
     min-height: 20%;
 
 }
-.blocsection2 p{
+
+.blocsection2 p {
     width: 50%;
-    color:black;
+    color: black;
     font-size: 25px;
-    font-family:"cafÈ & brewery";
-    line-height:30px;
+    font-family: "cafÈ & brewery";
+    line-height: 30px;
     padding: 3px 3px 3px 10px;
     margin-top: -9em;
     top: -2em;
 
-
 }
-.carresection2{
+
+.carresection2 {
     background-color: #554641;
     position: relative;
     z-index: 36;
@@ -145,15 +157,17 @@ h2{
     background-image: url("../img/festival.jpg");
     background-size: cover;
 }
-#totalsection2{
+
+#totalsection2 {
     top: -28em;
     position: relative;
     left: 10%;
 }
+
 /*Section 3*/
 
 /*Section4*/
-.bloc1section4{
+.bloc1section4 {
     border: 5px solid black;
     width: 10%;
     top: -10em;
@@ -162,7 +176,8 @@ h2{
     float: right;
     font-size: 30px;
 }
-.bloc2section4{
+
+.bloc2section4 {
     border: 5px solid black;
     width: 10%;
     font-size: 30px;
@@ -172,140 +187,151 @@ h2{
     z-index: 35;
     float: right;
 }
-#section4 h3{
+
+#section4 h3 {
     position: relative;
     z-index: 35;
     color: black;
     font-size: 40px;
-    top:-14em;
+    top: -14em;
     right: 10%;
     float: right;
 }
 
 /*Section et Div*/
-#section1{
+#section1 {
     z-index: 32;
     background-color: #3e3947;
-    background: url("../img/backg.jpg")no-repeat center center fixed;
+    background: url("../img/backg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     min-height: 60em;
 }
-#section2{
+
+#section2 {
     z-index: 4;
     background-color: #c79b74;
     min-height: 20em;
     max-height: 40em;
 }
-#section3{
+
+#section3 {
     z-index: 1;
     background-color: #745360;
     min-height: 40em;
     max-height: 40em;
 }
-#section4{
+
+#section4 {
     z-index: 4;
     background-color: #745360;
     min-height: 50em;
     position: relative;
     top: 10em;
 }
-#section5{
+
+#section5 {
     z-index: 6;
     background-color: #3e3947;
     min-height: 50em;
-    background: url("../img/backg.jpg")no-repeat center center fixed;
+    background: url("../img/backg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-#section6{
+
+#section6 {
     z-index: 1;
     background-color: #745360;
     min-height: 50em;
 }
-#section7{
+
+#section7 {
     z-index: 1;
     background-color: #3e3947;
     min-height: 50em;
 }
-#section8{
+
+#section8 {
     z-index: 1;
     background-color: #745360;
     min-height: 50em;
 }
 
-#div2{
+#div2 {
     z-index: 30;
     position: relative;
     background-color: #c79b74;
-    transform:rotate(-3deg);
-    -ms-transform:rotate(-3deg); /* Internet Explorer */
-    -moz-transform:rotate(-3deg); /* Firefox */
-    -webkit-transform:rotate(-3deg); /* Safari et Chrome */
-    -o-transform:rotate(-3deg); /* Opera */
+    transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg); /* Internet Explorer */
+    -moz-transform: rotate(-3deg); /* Firefox */
+    -webkit-transform: rotate(-3deg); /* Safari et Chrome */
+    -o-transform: rotate(-3deg); /* Opera */
     min-height: 30em;
-    top:-7em;
+    top: -7em;
     min-width: 101%;
 }
-#div3{
+
+#div3 {
     z-index: 0 !important;
     background-size: cover;
     position: relative;
-    background-color:#c79b74;
-    transform:rotate(0deg);
-    -ms-transform:rotate(0deg); /* Internet Explorer */
-    -moz-transform:rotate(0deg); /* Firefox */
-    -webkit-transform:rotate(0deg); /* Safari et Chrome */
-    -o-transform:rotate(0deg); /* Opera */
+    background-color: #c79b74;
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg); /* Internet Explorer */
+    -moz-transform: rotate(0deg); /* Firefox */
+    -webkit-transform: rotate(0deg); /* Safari et Chrome */
+    -o-transform: rotate(0deg); /* Opera */
     min-width: 101%;
     min-height: 50em !important;
 }
-#div4{
+
+#div4 {
     z-index: 30;
     position: relative;
     background-color: #745360;
-    transform:rotate(-3deg);
-    -ms-transform:rotate(-3deg); /* Internet Explorer */
-    -moz-transform:rotate(-3deg); /* Firefox */
-    -webkit-transform:rotate(-3deg); /* Safari et Chrome */
-    -o-transform:rotate(-3deg); /* Opera */
+    transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg); /* Internet Explorer */
+    -moz-transform: rotate(-3deg); /* Firefox */
+    -webkit-transform: rotate(-3deg); /* Safari et Chrome */
+    -o-transform: rotate(-3deg); /* Opera */
     min-height: 30em;
-    top:-10em;
+    top: -10em;
     min-width: 101%;
 }
-#div6{
+
+#div6 {
     z-index: 30;
     position: relative;
     background-color: #745360;
-    transform:rotate(-3deg);
-    -ms-transform:rotate(-3deg); /* Internet Explorer */
-    -moz-transform:rotate(-3deg); /* Firefox */
-    -webkit-transform:rotate(-3deg); /* Safari et Chrome */
-    -o-transform:rotate(-3deg); /* Opera */
+    transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg); /* Internet Explorer */
+    -moz-transform: rotate(-3deg); /* Firefox */
+    -webkit-transform: rotate(-3deg); /* Safari et Chrome */
+    -o-transform: rotate(-3deg); /* Opera */
     min-height: 30em;
-    top:-7em;
+    top: -7em;
     min-width: 101%;
 }
 
 .carousel-content {
-    color:white;
-    display:flex;
-    align-items:center;
+    color: white;
+    display: flex;
+    align-items: center;
     text-align: center;
-    font-family: museo900regular;
+    font-family: 'Conv_Museo700-Regular';
 
 }
 
 .carousel-content h3 {
-    color:white;
-    display:flex;
-    align-items:center;
+    color: white;
+    display: flex;
+    align-items: center;
     text-align: center;
-    font-family: museo900regular;
+    font-family: 'Conv_Museo700-Regular';
     font-size: 40px;
 
 }
@@ -313,10 +339,11 @@ h2{
 .carousel {
     top: -12em;
 }
+
 .carousel-control.right {
-    background-image: none!important;
+    background-image: none !important;
 }
 
 .carousel-control.left {
-    background-image: none!important;
+    background-image: none !important;
 }
