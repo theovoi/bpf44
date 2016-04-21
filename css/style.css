@@ -107,21 +107,32 @@ h2{
     position: relative;
     z-index: 35;
     width: 70%;
+    padding: 20% 3px 3px 80px;
+    min-height: 20%;
+
 }
 .blocsection2 p{
     width: 50%;
-    color:white;
-    font-size: 20px;
+    color:black;
+    font-size: 25px;
+    font-family:"cafÈ & brewery";
+    line-height:30px;
+    padding: 3px 3px 3px 10px;
+    margin-top: -9em;
+    top: -2em;
+
+
 }
 .carresection2{
     background-color: #554641;
     position: relative;
     z-index: 36;
-    min-height: 10em;
-    min-height: 13em;
-    width: 30%;
-    left: 45%;
-    top: -18em;
+    min-height: 24em;
+    width: 40%;
+    left: 43%;
+    top: -20em;
+    background-image: url("../img/festival.jpg");
+    background-size: cover;
 }
 #totalsection2{
     top: -28em;
@@ -162,39 +173,6 @@ h2{
     right: 10%;
     float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Section et Div*/
 #section1{

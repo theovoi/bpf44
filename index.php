@@ -27,16 +27,14 @@
     <div id="totalsection2">
         <div class="blocsection2">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Animi blanditiis, cum dolor est fugiat id incidunt minima mollitia nam,
-                neque nobis placeat qui quia quidem quis recusandae sunt unde, voluptatum.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Animi blanditiis, cum dolor est fugiat id incidunt minima mollitia nam,
-                neque nobis placeat qui quia quidem quis recusandae sunt unde, voluptatum.
+                "Dieu acheva au septième jour son œuvre: et il se reposa au septième jour de toute son œuvre.
+
+                Dieu chilla pépère le septième jour, et il le sanctifia, parce qu'en ce jour il créa la musique Pop.
+
+                Ainsi les Freaks créèrent le BPF ."
             </p>
         </div>
         <div class="carresection2">
-            <img src="img/festival.jpg" alt="festival" style="padding: 4px 4px 4px 4px;">
         </div>
     </div>
 </section>
