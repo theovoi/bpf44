@@ -84,6 +84,20 @@ img {
     font-size: 30px;
 
 }
+
+.section1logocentre {
+    width: 15% !important;
+    position: absolute;
+    top: 0em;
+    right: 50%;
+    z-index: 99;
+}
+
+.section1logocentre img {
+    position: absolute;
+    z-index: 99;
+}
+
 .section1textedroite{
     color: white;
     font-size: 30px;
@@ -440,7 +454,7 @@ h2 {
     margin-right: auto !important;
 }
 .carousel {
-    top: -30em;
+    top: -10em;
 }
 
 .carousel-control.right {
