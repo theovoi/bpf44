@@ -67,7 +67,16 @@ img {
     float: left;
     border-bottom: white solid 5px;
 }
+.section1textegauche{
+    color: white;
+    font-size: 30px;
 
+}
+.section1textedroite{
+    color: white;
+    font-size: 30px;
+
+}
 .section1divdroite {
     width: 15% !important;
     z-index: 34;
@@ -111,7 +120,7 @@ h2 {
     border-right: 60em solid transparent;
     top: -19em;
 }
-#section1 p{
+.freak{
     position: relative;
     z-index: 50;
     text-align: center;

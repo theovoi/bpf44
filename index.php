@@ -15,11 +15,15 @@
     <div class="col-md-12">
         <div class="triangledown"></div>
         <div class="triangledownbordure"></div>
-        <div class="section1divgauche"></div>
-        <div class="section1divdroite"></div>
+        <div class="section1divgauche">
+            <p class="section1textegauche">LOREM IPSUM</p>
+        </div>
+        <div class="section1divdroite">
+            <p class="section1textedroite">LOREM IPSUM</p>
+        </div>
         <h1 class="animated fadeInDown" id="museo">BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
-        <p id="museo">Freaks Beers & Sun</p>
+        <p id="museo" class="freak">Freaks Beers & Sun</p>
         <div id="carousel-example" class="carousel slide slider" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="row">
