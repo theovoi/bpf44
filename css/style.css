@@ -235,18 +235,21 @@ h2 {
 }
 .imageartiste{
     position: relative;
-    z-index: 35px;
-    margin-top: 10em;
-    display: block;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    z-index: 35;
     background-color: white;
     min-height: 10em;
     min-width: 10em;
     max-height: 10em;
     max-width: 10em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-top: 14em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.artistepopup{
+
+
 }
 /*Section6*/
 /*Section7*/

@@ -117,24 +117,24 @@
     <h3 id="museo" class="animated bounceInLeft">LES ARTISTES</h3>
     <div class="col-md-10 col-md-offset-1">
         <div class="col-md-4">
-            <div class="imageartiste"></div>
+              <a href="#artiste1" role="button"  data-toggle="modal"><div class="imageartiste"></div></a>
         </div>
         <div class="col-md-4">
-            <div class="imageartiste"></div>
+              <a href="#artiste2" role="button"  data-toggle="modal"><div class="imageartiste"></div></a>
         </div>
         <div class="col-md-4">
-            <div class="imageartiste"></div>
+              <a href="#artiste3" role="button" data-toggle="modal"><div class="imageartiste"></div></a>
         </div>
     </div>
     <div class="col-md-10 col-md-offset-1">
         <div class="col-md-4">
-            <div class="imageartiste"></div>
+            <a href="#artiste4" role="button"  data-toggle="modal"><div class="imageartiste"></div></a>
         </div>
         <div class="col-md-4">
-            <div class="imageartiste"></div>
+              <a href="#artiste5" role="button"  data-toggle="modal"><div class="imageartiste"></div></a>
         </div>
         <div class="col-md-4">
-            <div class="imageartiste"></div>
+              <a href="#artiste6" role="button" data-toggle="modal"><div class="imageartiste"></div></a>
         </div>
     </div>
 </section>
