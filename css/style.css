@@ -12,12 +12,6 @@ img {
     width: 100%;
 }
 
-.head {
-    background-color: #00A2E3;
-    height: 56em;
-    z-index: 99;
-}
-
 @font-face {
     font-family: 'Conv_Museo700-Regular';
     src: url('../fonts/Museo700-Regular.eot');
@@ -167,7 +161,7 @@ h2 {
 }
 
 .blocsection2 {
-    background-color: #f2d4ba;
+    background-color: #d2caaf;
     position: relative;
     z-index: 35;
     width: 70%;
@@ -178,7 +172,7 @@ h2 {
 
 .blocsection2 p {
     width: 50%;
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: 'Conv_Museo700-Regular';
     line-height: 30px;
@@ -321,7 +315,7 @@ h2 {
 
 #section2 {
     z-index: 4;
-    background-color: #c79b74;
+    background-color: #39408a;
     min-height: 20em;
     max-height: 40em;
 }
@@ -379,7 +373,7 @@ h2 {
 #div2 {
     z-index: 30;
     position: relative;
-    background-color: #c79b74;
+    background-color: #39408a;
     transform: rotate(-3deg);
     -ms-transform: rotate(-3deg); /* Internet Explorer */
     -moz-transform: rotate(-3deg); /* Firefox */
