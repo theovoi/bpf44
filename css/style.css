@@ -236,7 +236,7 @@ h2 {
 .imageartiste{
     position: relative;
     z-index: 35px;
-    top: 10em;
+    margin-top: 10em;
     display: block;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -250,10 +250,6 @@ h2 {
 }
 /*Section6*/
 /*Section7*/
-.gmap{
-    min-height: 40em;
-    min-width: 100%;
-}
 
 
 
@@ -308,7 +304,7 @@ h2 {
 #section5 {
     z-index: 6;
     background-color: #39408A;
-    min-height: 50em;
+    min-height: 80em;
     background: url("../img/backg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -327,6 +323,11 @@ h2 {
     background-color: #3e3947;
     min-height: 40em;
     max-height: 40em;
+    background: url("../img/gmap.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #section8 {
