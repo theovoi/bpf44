@@ -286,26 +286,31 @@ h2 {
 /*Section7*/
 /*Modal*/
 .popup{
-    background-color: black;
-    border: 2px solid black;
-    background-color: black;
-    border: 2px solid black;
     min-width: 200%;
     right: 50%;
     display: block;
     margin-left: auto;
     text-align: center;
     margin-right: auto;
+    min-height: 50em;
+    background-color: black;
 }
 .imagepopup{
-    min-height: 60em;
+    min-height: 50em;
+    right: 1em;
+
 }
 .imagepopup1{
-    background: url('../img/backg.jpg');
+    background: url('../img/backg.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .textpopup{
     font-size: 30px;
     color: white;
+    background-color: black;
 }
 
 
