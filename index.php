@@ -118,24 +118,24 @@
     <h3 id="museo" class="animated bounceInLeft">LES ARTISTES</h3>
     <div class="col-md-10 col-md-offset-1">
         <div class="col-md-4">
-              <a href="#artiste1" role="button"  data-toggle="modal"><div class="imageartiste"></div></a>
+            <button data-toggle="modal" data-target="#artiste1"><div class="imageartiste"></div></button>
         </div>
         <div class="col-md-4">
-              <a href="#artiste2" role="button"  data-toggle="modal"><div class="imageartiste"></div></a>
+            <button data-toggle="modal" data-target="#artiste2"><div class="imageartiste"></div></button>
         </div>
         <div class="col-md-4">
-              <a href="#artiste3" role="button" data-toggle="modal"><div class="imageartiste"></div></a>
+            <button data-toggle="modal" data-target="#artiste3"><div class="imageartiste"></div></button>
         </div>
     </div>
     <div class="col-md-10 col-md-offset-1">
         <div class="col-md-4">
-            <a href="#artiste4" role="button"  data-toggle="modal"><div class="imageartiste"></div></a>
+            <button data-toggle="modal" data-target="#artiste4"><div class="imageartiste"></div></button>
         </div>
         <div class="col-md-4">
-              <a href="#artiste5" role="button"  data-toggle="modal"><div class="imageartiste"></div></a>
+            <button data-toggle="modal" data-target="#artiste5"><div class="imageartiste"></div></button>
         </div>
         <div class="col-md-4">
-              <a href="#artiste6" role="button" data-toggle="modal"><div class="imageartiste"></div></a>
+            <button data-toggle="modal" data-target="#artiste6"><div class="imageartiste"></div></button>
         </div>
     </div>
 </section>
@@ -149,9 +149,24 @@
 
 <section id="section8">
     <div id="div8"></div>
+
 </section>
+<!--modal-->
+<div class="modal fade" id="artiste1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                Exemple de modal
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-
+</div>
 <script src="js/jquery-2.1.1.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
 <script src="js/main.js"></script>

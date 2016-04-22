@@ -245,6 +245,21 @@ h2 {
     color: white;
     float: left;
 }
+#section5 .artiste{
+    z-index: 50;
+    position: relative;
+}
+#section5 button{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: transparent;
+}
+#section5 button:focus{
+    outline: -webkit-focus-ring-color none !important;
+}
 .imageartiste{
     position: relative;
     z-index: 35;
@@ -254,10 +269,6 @@ h2 {
     max-height: 10em;
     max-width: 10em;
     margin-top: 14em;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 .artistepopup{
 
@@ -317,7 +328,7 @@ h2 {
 }
 
 #section5 {
-    z-index: 6;
+    z-index: 0;
     background-color: #39408A;
     min-height: 80em;
     background: url("../img/backg.jpg") no-repeat center center fixed;
