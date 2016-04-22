@@ -212,6 +212,7 @@ h2 {
     font-size: 40px;
     top: -14em;
     right: 10%;
+    color:white;
     float: right;
 }
 
@@ -222,6 +223,31 @@ h2 {
 }
 
 /*Section5*/
+#section5 h3{
+    position: relative;
+    z-index: 35;
+    color: black;
+    font-size: 40px;
+    left: 10%;
+    top: 3em;
+    color: white;
+    float: left;
+}
+.imageartiste{
+    position: relative;
+    z-index: 35px;
+    top: 10em;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: white;
+    min-height: 10em;
+    min-width: 10em;
+    max-height: 10em;
+    max-width: 10em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 /*Section6*/
 /*Section7*/
 .gmap{

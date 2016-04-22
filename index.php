@@ -94,7 +94,7 @@
 
 <section id="section4">
     <div id="div4"></div>
-    <h3 id="museo" style="color:white;">LE PROGRAMME</h3>
+    <h3 id="museo">LE PROGRAMME</h3>
     <div class="bloc1section4 progra">
         <p>19h00 : Os Noctambulos</p>
         <p>20h00 : The Bind Suns</p>
@@ -114,6 +114,18 @@
 </section>
 
 <section id="section5">
+    <h3 id="museo" class="animated bounceInLeft">LES ARTISTES</h3>
+    <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-4">
+            <div class="imageartiste"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="imageartiste"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="imageartiste"></div>
+        </div>
+    </div>
 </section>
 
 <section id="section6">
