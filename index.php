@@ -160,12 +160,13 @@
 <div class="modal fade" id="artiste1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-            </div>
-            <div class="modal-body">
-                Exemple de modal
+            <div class="col-md-12 popup">
+                <div class="col-md-6 imagepopup imagepopup1"></div>
+                <div class="col-md-6 textpopup">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+                    fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+                </div>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
