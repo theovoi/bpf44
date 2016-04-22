@@ -16,10 +16,11 @@
         <div class="triangledown"></div>
         <div class="triangledownbordure"></div>
         <div class="section1divgauche">
-            <p class="section1textegauche">LOREM IPSUM</p>
+            <p class="section1textegauche" id="museo">22 & 23 Juillet
+            </p>
         </div>
         <div class="section1divdroite">
-            <p class="section1textedroite">LOREM IPSUM</p>
+            <p class="section1textedroite" id="museo">Angers FR</p>
         </div>
         <h1 class="animated fadeInDown" id="museo">BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
