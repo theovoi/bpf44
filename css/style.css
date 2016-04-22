@@ -200,6 +200,29 @@ h2 {
     right: 10%;
     float: right;
 }
+/*Section5*/
+/*Section6*/
+/*Section7*/
+.gmap{
+    min-height: 40em;
+    min-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Section et Div*/
 #section1 {
@@ -255,7 +278,8 @@ h2 {
 #section7 {
     z-index: 1;
     background-color: #3e3947;
-    min-height: 50em;
+    min-height: 40em;
+    max-height: 40em;
 }
 
 #section8 {
