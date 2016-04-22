@@ -23,7 +23,7 @@
         </div>
         <h1 class="animated fadeInDown" id="museo">BRIOLLAY POP FESTIVAL</h1>
         <div class="section1penche"></div>
-        <p id="cerise" class="freak">Freaks Beers & Sun</p>
+        <p id="cerise" class="freak">Freaks Beers and Sun</p>
         <div id="carousel-example" class="carousel slide slider" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="row">

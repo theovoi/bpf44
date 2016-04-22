@@ -136,8 +136,8 @@ h2 {
     position: relative;
     z-index: 50;
     text-align: center;
-    font-size: 30px;
-    top:-11em;
+    font-size: 145px;
+    top:-3em;
 }
 
 
@@ -399,7 +399,7 @@ h2 {
     margin-right: auto !important;
 }
 .carousel {
-    top: -15em;
+    top: -30em;
 }
 
 .carousel-control.right {
