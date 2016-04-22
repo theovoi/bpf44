@@ -26,8 +26,20 @@ img {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Conv_les Sensations de Cerise';
+    src: url('../fonts/les Sensations de Cerise.eot');
+    src: local('☺'), url('../fonts/les Sensations de Cerise.woff') format('woff'), url('../fonts/les Sensations de Cerise.ttf') format('truetype'), url('../fonts/les Sensations de Cerise.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #museo {
     font-family: 'Conv_Museo700-Regular'!important;
+}
+
+#cerise {
+    font-family: 'Conv_les Sensations de Cerise'!important;
 }
 
 /*section1*/
@@ -124,8 +136,8 @@ h2 {
     position: relative;
     z-index: 50;
     text-align: center;
-    font-size: 30px;
-    top:-11em;
+    font-size: 145px;
+    top:-3em;
 }
 
 
@@ -417,7 +429,7 @@ h2 {
     margin-right: auto !important;
 }
 .carousel {
-    top: -15em;
+    top: -30em;
 }
 
 .carousel-control.right {
