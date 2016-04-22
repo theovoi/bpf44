@@ -172,20 +172,21 @@ h2 {
 /*Section4*/
 .bloc1section4 {
     border: 5px solid black;
-    width: 10%;
+    width: 40%;
     top: -10em;
     position: relative;
     z-index: 35;
-    float: right;
+    float: left;
     font-size: 30px;
+    left: 2%;
 }
 
 .bloc2section4 {
     border: 5px solid black;
-    width: 10%;
+    width: 40%;
     font-size: 30px;
-    top: -15em;
-    right: 8%;
+    top: -10em;
+    right:2%;
     position: relative;
     z-index: 35;
     float: right;
@@ -200,6 +201,13 @@ h2 {
     right: 10%;
     float: right;
 }
+
+.progra {
+    padding: 5px 5px 5px 5px;
+    font-family: 'Conv_Museo700-Regular';
+    color: white;
+}
+
 /*Section5*/
 /*Section6*/
 /*Section7*/
@@ -245,14 +253,14 @@ h2 {
 
 #section3 {
     z-index: 1;
-    background-color: #745360;
+    background-color: #39408A;
     min-height: 40em;
     max-height: 40em;
 }
 
 #section4 {
     z-index: 4;
-    background-color: #745360;
+    background-color: #39408A;
     min-height: 50em;
     position: relative;
     top: 10em;
@@ -260,7 +268,7 @@ h2 {
 
 #section5 {
     z-index: 6;
-    background-color: #3e3947;
+    background-color: #39408A;
     min-height: 50em;
     background: url("../img/backg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -271,7 +279,7 @@ h2 {
 
 #section6 {
     z-index: 1;
-    background-color: #745360;
+    background-color: #39408A;
     min-height: 50em;
 }
 
@@ -284,7 +292,7 @@ h2 {
 
 #section8 {
     z-index: 1;
-    background-color: #745360;
+    background-color: #39408A;
     min-height: 50em;
 }
 
@@ -319,7 +327,7 @@ h2 {
 #div4 {
     z-index: 30;
     position: relative;
-    background-color: #745360;
+    background-color:#39408A;
     transform: rotate(-3deg);
     -ms-transform: rotate(-3deg); /* Internet Explorer */
     -moz-transform: rotate(-3deg); /* Firefox */
@@ -333,7 +341,7 @@ h2 {
 #div6 {
     z-index: 30;
     position: relative;
-    background-color: #745360;
+    background-color: #39408A;
     transform: rotate(-3deg);
     -ms-transform: rotate(-3deg); /* Internet Explorer */
     -moz-transform: rotate(-3deg); /* Firefox */
