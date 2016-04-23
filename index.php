@@ -230,7 +230,7 @@
     <section id="section8">
         <div class="col-md-12">
             <div class="col-md-6 contact">
-                <h3>Nous somme ici :</h3>
+                <h3>Nous sommes ici :</h3>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
                     fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
@@ -288,6 +288,9 @@
         </div>
         <div id="div8"></div>
     </section>
+
+    <!-- POP UP SECTION -->
+
     <!--modal1-->
     <div class="modal fade" id="artiste1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
