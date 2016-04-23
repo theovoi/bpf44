@@ -476,17 +476,102 @@ h2 {
     background-size: cover;
 }
 
+.imagepopup2 {
+    background: url('../img/blindSuns.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup3 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup4 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup5 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup6 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup7 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup8 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup9 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup10 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup11 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup12 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .textpopup {
-    font-size: 17px;
+    font-size: 15px;
     color: white;
     background-color: black;
     font-family: "Conv_Museo700-Regular";
     top: 0em!important;
 
+
 }
 
 #txtart {
     padding-top: 2%;
+    text-align: justify!important;
 }
 
 #titlepopup{
@@ -496,6 +581,7 @@ h2 {
 .rs {
     padding: 2% 2% 2% 2%!important;
     color: white!important;
+    text-align: center!important;
 }
 
 /*Section et Div*/
