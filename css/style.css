@@ -62,22 +62,6 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
-.section1divgauche {
-    width: 15% !important;
-    z-index: 34;
-    position: relative;
-    top: -30em;
-    left: 10%;
-    float: left;
-    border-bottom: white solid 5px;
-}
-.section1textegauche{
-    color: white;
-    font-size: 30px;
-
-}
-
 .section1logocentre {
     width: 15% !important;
     position: absolute;
@@ -90,11 +74,19 @@ img {
     position: absolute;
     z-index: 99;
 }
-
-.section1textedroite{
-    color: white;
-    font-size: 30px;
-
+.section1divgauche {
+    width: 15% !important;
+    z-index: 34;
+    position: relative;
+    top: -30em;
+    left: 10%;
+    float: left;
+    border-bottom: white solid 5px;
+}
+.section1textegauche{
+    color: white !important;
+    font-size: 30px !important;
+    top:-1em !important;
 }
 .section1divdroite {
     width: 15% !important;
@@ -105,7 +97,12 @@ img {
     float: right;
     border-bottom: white solid 5px;
 }
+.section1textedroite{
+    color: white !important;
+    font-size: 30px !important;
+    top:-1em !important;
 
+}
 h1 {
     position: relative;
     z-index: 34;
