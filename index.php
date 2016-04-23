@@ -183,6 +183,40 @@
                 </button>
             </div>
         </div>
+        <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-4">
+                <button data-toggle="modal" data-target="#artiste4">
+                    <div class="imageartiste"></div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button data-toggle="modal" data-target="#artiste5">
+                    <div class="imageartiste"></div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button data-toggle="modal" data-target="#artiste6">
+                    <div class="imageartiste"></div>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-4">
+                <button data-toggle="modal" data-target="#artiste4">
+                    <div class="imageartiste"></div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button data-toggle="modal" data-target="#artiste5">
+                    <div class="imageartiste"></div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button data-toggle="modal" data-target="#artiste6">
+                    <div class="imageartiste"></div>
+                </button>
+            </div>
+        </div>
 
     </section>
 
