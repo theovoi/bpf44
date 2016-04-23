@@ -146,6 +146,18 @@
 </section>
 
 <section id="section6">
+    <h3 id="museo" class="animated bounceInLeft">TIQUETS</h3>
+    <p class="textup">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+        fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+        fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+        fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+    </p>
     <div id="div6"></div>
 </section>
 

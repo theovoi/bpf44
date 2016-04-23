@@ -283,6 +283,29 @@ h2 {
 
 }
 /*Section6*/
+#section6 h3{
+     position: relative;
+     z-index: 50;
+     top:1em;
+     color: black;
+     font-size: 40px;
+     left: 10%;
+     color: white;
+     float: left;
+ }
+#section6 .textup{
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 50;
+    top:8em;
+    color: black;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
 /*Section7*/
 /*Modal*/
 .popup{
