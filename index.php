@@ -189,7 +189,7 @@
 
 <section id="section8">
     <div class="col-md-12">
-        <div class="col-md-6">
+        <div class="col-md-6 contact">
             <h3>Nous somme ici :</h3>
             <p>     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="form-group animated bounceInLeft">
+                        <div class="form-group animated bounceInRight">
                             <label for="inputemail"></label>
                             <input type="text" placeholder="Email" class="form-control" name="email" id="inputemail" value="<?= isset($_SESSION['input']['email']) ? $_SESSION['input']['email'] :'' ;?>">
                         </div>
