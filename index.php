@@ -169,6 +169,17 @@
             <div class="imagetiquet"></div>
         </div>
     </div>
+    <p class="textdown">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+        fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+        fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+        fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+    </p>
     <div id="div6"></div>
 </section>
 
