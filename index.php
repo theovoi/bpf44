@@ -368,6 +368,86 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <!--modal3-->
+    <div class="modal fade" id="artiste3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="col-md-12 popup">
+                    <div class="col-md-6 imagepopup imagepopup3"></div>
+                    <div class="col-md-6 textpopup">
+                        <h1 id="titlepopup">Graal</h1>
+                        <p id="txtart">Avec sa Dream Pop ouverte à tous les horizons - discrétions Shoegaze à la Jesus &
+                            Mary Chain, guitares Surf à la Dick Dale, mélodies senties à la Mazzy Star - The Blind Suns
+                            plonge dans la mélancolie sans être triste, dans la joie sans être sautillant, en alternant
+                            plages atmosphériques et titres plus nerveux.
+                            <br>
+                            Après un premier album bien reçu par la presse nationale (MagicRpm, Les inRocks, Longueur d'Ondes),
+                            le groupe est le coup de cœur du producteur anglais Clive Martin (Queen, Nick Cave, The Cure, Stereophonics)
+                            <br>
+                            qui a décidé de leur offrir la production d'un Ep (sortie en mars 2016).
+                            <br>
+                            Les américains ont aussi décidé de mettre la main sur le jeune groupe,
+                            <br>
+                            le célèbre Jim Rose du Jim Rose Circus s'impose comme leur parrain aux Etats-Unis
+                            (« one of the best bands i've seen, they sound like The Jesus and Mary Chain with a vagina »)
+                            et ils ont séduit les programmateurs du festival SXSW à Austin qui les invitent sur l'édition 2016
+                            dans la programmation officielle (mars 2016).
+                            <br>
+                            <br>
+                            Les 3 influences: The Jesus and Mary Chain, The Raveonettes, Mazzy Star…
+
+                        </p>
+                        <a href="#"><i class="rs fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="rs fa fa-soundcloud fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="rs fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="rs fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!--modal4-->
+    <div class="modal fade" id="artiste4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="col-md-12 popup">
+                    <div class="col-md-6 imagepopup imagepopup4"></div>
+                    <div class="col-md-6 textpopup">
+                        <h1 id="titlepopup">Humbros</h1>
+                        <p id="txtart">Avec sa Dream Pop ouverte à tous les horizons - discrétions Shoegaze à la Jesus &
+                            Mary Chain, guitares Surf à la Dick Dale, mélodies senties à la Mazzy Star - The Blind Suns
+                            plonge dans la mélancolie sans être triste, dans la joie sans être sautillant, en alternant
+                            plages atmosphériques et titres plus nerveux.
+                            <br>
+                            Après un premier album bien reçu par la presse nationale (MagicRpm, Les inRocks, Longueur d'Ondes),
+                            le groupe est le coup de cœur du producteur anglais Clive Martin (Queen, Nick Cave, The Cure, Stereophonics)
+                            <br>
+                            qui a décidé de leur offrir la production d'un Ep (sortie en mars 2016).
+                            <br>
+                            Les américains ont aussi décidé de mettre la main sur le jeune groupe,
+                            <br>
+                            le célèbre Jim Rose du Jim Rose Circus s'impose comme leur parrain aux Etats-Unis
+                            (« one of the best bands i've seen, they sound like The Jesus and Mary Chain with a vagina »)
+                            et ils ont séduit les programmateurs du festival SXSW à Austin qui les invitent sur l'édition 2016
+                            dans la programmation officielle (mars 2016).
+                            <br>
+                            <br>
+                            Les 3 influences: The Jesus and Mary Chain, The Raveonettes, Mazzy Star…
+
+                        </p>
+                        <a href="#"><i class="rs fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="rs fa fa-soundcloud fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="rs fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="rs fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     </div>
     <script src="js/jquery-2.1.1.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
