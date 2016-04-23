@@ -158,6 +158,17 @@
         Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
         fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
     </p>
+    <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-4">
+            <div class="imagetiquet"></div>
+        </div>
+        <div class="col-md-4">
+           <div class="imagetiquet"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="imagetiquet"></div>
+        </div>
+    </div>
     <div id="div6"></div>
 </section>
 

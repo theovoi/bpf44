@@ -279,8 +279,6 @@ h2 {
     margin-top: 14em;
 }
 .artistepopup{
-
-
 }
 /*Section6*/
 #section6 h3{
@@ -305,6 +303,19 @@ h2 {
     font-size: 20px;
     color: white;
     text-align: center;
+}
+#section6 .imagetiquet{
+    position: relative;
+    z-index: 35;
+    background-color: white;
+    min-height: 10em;
+    min-width: 10em;
+    max-height: 10em;
+    max-width: 10em;
+    margin-top: 14em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Section7*/
 /*Modal*/
