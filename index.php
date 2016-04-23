@@ -187,7 +187,7 @@
     </section>
 
     <section id="section6">
-        <h3 id="museo" class="animated bounceInLeft">TIQUETS</h3>
+        <h3 id="museo" class="animated bounceInLeft">LES PASS</h3>
         <p class="textup">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
