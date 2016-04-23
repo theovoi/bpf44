@@ -230,7 +230,7 @@
     <section id="section8">
         <div class="col-md-12">
             <div class="col-md-6 contact">
-                <h3>Nous sommes ici :</h3>
+                <h3 id="museo">Nous sommes ici :</h3>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
                     fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
@@ -238,7 +238,7 @@
                     Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
                     fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
                 </p>
-                <h3>Contact</h3>
+                <h3 id="museo">Contact</h3>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
                     fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
