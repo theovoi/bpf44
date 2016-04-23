@@ -12,7 +12,31 @@
     <link href="css/animate.css" rel="stylesheet">
 </head>
 <body>
-<section id="section1">
+<a class="cd-nav-trigger cd-img-replace">Open navigation</a>
+<nav id="cd-vertical-nav" >
+    <ul>
+        <li>
+            <a href="#section1" data-number="1">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Item 1</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section2" data-number="2">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Item 2</span>
+            </a>
+        </li>
+        <li>
+            <a href="#section3" data-number="3">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Item 3</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<section id="section1" class="cd-section">
+    <a href="#section2" class="cd-scroll-down cd-img-replace"></a>
     <div class="col-md-12">
         <div class="triangledown"> <div class="section1logocentre" align="center">
                 <img src="img/lesfreaks.png" alt="logo" id="logo">
@@ -263,9 +287,10 @@
 </div>
 <script src="js/jquery-2.1.1.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
-<script src="js/main.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.js"></script>
 <script src="js/tub.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
 <?php
