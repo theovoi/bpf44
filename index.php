@@ -5,7 +5,15 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Briollay Pop Festival</title>
+        <title>Briollay Pop Festival #4</title>
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Briollay Pop Festival #4"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:description" content="Bienvenue sur le site du Briollay Festival #4"/>
+        <meta property="og:url" content=""/>
+        <meta property="og:image" content=""/>
+
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link href="css/hover-min.css" rel="stylesheet">
