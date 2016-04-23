@@ -331,6 +331,25 @@ h2 {
     margin-right: auto;
 }
 /*Section7*/
+/*Section8*/
+#section8 h3{
+    position: relative;
+    z-index: 50;
+    color: black;
+    font-size: 40px;
+    left: 10%;
+    color: white;
+    float: left;
+}
+#section8 p{
+    position: relative;
+    z-index: 50;
+    color: black;
+    font-size: 20px;
+    left: 10%;
+    color: white;
+    float: left;
+}
 /*Modal*/
 .popup{
     min-width: 200%;
@@ -424,6 +443,7 @@ h2 {
     z-index: 1;
     background-color: #39408A;
     min-height: 50em;
+    max-height: 65em;
 }
 
 #section7 {
@@ -497,6 +517,7 @@ h2 {
     -o-transform: rotate(-3deg); /* Opera */
     min-height: 30em;
     top: -7em;
+    right: 1em;
     min-width: 101%;
 }
 

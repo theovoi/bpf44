@@ -1,3 +1,4 @@
+<?php session_start()?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -187,8 +188,61 @@
 </section>
 
 <section id="section8">
+    <div class="col-md-12">
+        <div class="col-md-6">
+            <h3>Nous somme ici :</h3>
+            <p>     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+                fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+                fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+            </p>
+            <h3>Contact</h3>
+            <p>     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+                fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
+                fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="contact">
+                <?php if(array_key_exists('errors', $_SESSION)): ?>
+                    <div class="alert-danger alert">
+                        <?= implode('<br>', $_SESSION['errors']); ?>
+                    </div>
+                <?php endif; ?>
+                <?php if(array_key_exists('success', $_SESSION)): ?>
+                    <div class="alert-danger success">
+                        Votre message à bien été envoyé
+                    </div>
+                <?php endif; ?>
+                <form action="post_contact.php" method="POST">
+                    <div class="col-md-12">
+                        <div class="form-group animated bounceInRight">
+                            <input type="text" placeholder="Nom" class="form-control" name="name" id="inputname" value="<?= isset($_SESSION['input']['name']) ? $_SESSION['input']['name'] :'' ;?>">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group animated bounceInLeft">
+                            <label for="inputemail"></label>
+                            <input type="text" placeholder="Email" class="form-control" name="email" id="inputemail" value="<?= isset($_SESSION['input']['email']) ? $_SESSION['input']['email'] :'' ;?>">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group animated bounceInRight">
+                            <label for="inputmessage" class="labela"></label>
+                            <textarea placeholder="Votre message" name="message" id="inputmessage" class="textare" cols="30" rows="10" <?= isset($_SESSION['input']['message']) ? $_SESSION['input']['message'] :'' ;?>></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btnsub animated bounceInUp">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <div id="div8"></div>
-
 </section>
 <!--modal-->
 <div class="modal fade" id="artiste1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -214,3 +268,8 @@
 <script src="js/tub.js"></script>
 </body>
 </html>
+<?php
+unset($_SESSION['inputs']);
+unset($_SESSION['success']);
+unset($_SESSION['errors']);
+?>
