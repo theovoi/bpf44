@@ -29,12 +29,13 @@ img {
 }
 
 #museo {
-    font-family: 'Conv_Museo700-Regular'!important;
+    font-family: 'Conv_Museo700-Regular' !important;
 }
 
 #cerise {
-    font-family: 'Conv_les Sensations de Cerise'!important;
+    font-family: 'Conv_les Sensations de Cerise' !important;
 }
+
 /*section1*/
 .triangledown {
     width: 0;
@@ -62,6 +63,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
 .section1logocentre {
     width: 15% !important;
     position: absolute;
@@ -74,6 +76,7 @@ img {
     position: absolute;
     z-index: 99;
 }
+
 .section1divgauche {
     width: 15% !important;
     z-index: 34;
@@ -83,11 +86,13 @@ img {
     float: left;
     border-bottom: white solid 5px;
 }
-.section1textegauche{
+
+.section1textegauche {
     color: white !important;
     font-size: 30px !important;
-    top:-1em !important;
+    top: -1em !important;
 }
+
 .section1divdroite {
     width: 15% !important;
     z-index: 34;
@@ -97,12 +102,14 @@ img {
     float: right;
     border-bottom: white solid 5px;
 }
-.section1textedroite{
+
+.section1textedroite {
     color: white !important;
     font-size: 30px !important;
-    top:-1em !important;
+    top: -1em !important;
 
 }
+
 h1 {
     position: relative !important;
     z-index: 34 !important;
@@ -124,6 +131,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
 .section1penche {
     background-color: white;
     margin-left: auto;
@@ -136,15 +144,14 @@ h2 {
     border-right: 60em solid transparent;
     top: -19em;
 }
-.freak{
+
+.freak {
     position: relative;
     z-index: 50;
     text-align: center;
     font-size: 145px;
-    top:-3em;
+    top: -3em;
 }
-
-
 
 /*section2*/
 #section2 h3 {
@@ -215,7 +222,7 @@ h2 {
     width: 40%;
     font-size: 30px;
     top: -10em;
-    right:2%;
+    right: 2%;
     position: relative;
     z-index: 35;
     float: right;
@@ -228,7 +235,7 @@ h2 {
     font-size: 40px;
     top: -14em;
     right: 10%;
-    color:white;
+    color: white;
     float: right;
 }
 
@@ -239,7 +246,7 @@ h2 {
 }
 
 /*Section5*/
-#section5 h3{
+#section5 h3 {
     position: relative;
     z-index: 35;
     color: black;
@@ -249,11 +256,13 @@ h2 {
     color: white;
     float: left;
 }
-#section5 .artiste{
+
+#section5 .artiste {
     z-index: 50;
     position: relative;
 }
-#section5 button{
+
+#section5 button {
     display: block;
     text-align: center;
     margin-left: auto;
@@ -261,10 +270,12 @@ h2 {
     background-color: transparent;
     border: transparent;
 }
-#section5 button:focus{
+
+#section5 button:focus {
     outline: -webkit-focus-ring-color none !important;
 }
-.imageartiste{
+
+.imageartiste {
     position: relative;
     z-index: 35;
     background-color: white;
@@ -273,47 +284,57 @@ h2 {
     max-height: 10em;
     max-width: 10em;
     margin-top: 14em;
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.artistepopup{
+
+.artistepopup {
 }
+
 /*Section6*/
-#section6 h3{
-     position: relative;
-     z-index: 50;
-     top:1em;
-     color: black;
-     font-size: 40px;
-     left: 10%;
-     color: white;
-     float: left;
- }
-#section6 .textup{
+#section6 h3 {
+    position: relative;
+    z-index: 50;
+    top: 1em;
+    color: black;
+    font-size: 40px;
+    left: 10%;
+    color: white;
+    float: left;
+}
+
+#section6 .textup {
     max-width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     z-index: 50;
-    top:8em;
+    top: 8em;
     color: black;
     font-size: 20px;
     color: white;
     text-align: center;
 }
-#section6 .textdown{
+
+#section6 .textdown {
     max-width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     z-index: 50;
-    top:5em;
+    top: 5em;
     color: black;
     font-size: 20px;
     color: white;
     text-align: center;
 }
-#section6 .imagetiquet{
+
+#section6 .imagetiquet {
     position: relative;
     z-index: 35;
     background-color: white;
@@ -326,9 +347,10 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*Section7*/
 /*Section8*/
-#section8 h3{
+#section8 h3 {
     position: relative;
     z-index: 50;
     color: black;
@@ -337,7 +359,8 @@ h2 {
     color: white;
     float: left;
 }
-#section8 p{
+
+#section8 p {
     position: relative;
     z-index: 50;
     color: black;
@@ -346,7 +369,8 @@ h2 {
     color: white;
     float: left;
 }
-.form-control{
+
+.form-control {
     width: 50%;
     display: block;
     margin-right: auto;
@@ -355,18 +379,60 @@ h2 {
     margin-bottom: 1em;
     opacity: 0.7;
 }
-.contact{
+
+.contact {
     margin-top: 10em;
 }
-.alert{color:white;font-size: 20px;border: none; text-align: center; font-weight: bold;
-    background-color: black !important; opacity: 0.5; width: 40%;border-radius: 10px;display: block; margin-left: auto;margin-right: auto;}
-.success{color:white;font-size: 20px;border: none; text-align: center; font-weight: bold;
-    background-color: black !important; opacity: 0.5; width: 40%;border-radius: 10px;display: block; margin-left: auto;margin-right: auto;}
-::-webkit-input-placeholder {  color: #6a6a6a !important; opacity: 1 !important; font-size: 18px; }
-:-moz-placeholder { /* Firefox 18- */  color: white !important;  }
-::-moz-placeholder {  /* Firefox 19+ */  color: white !important;  }
-:-ms-input-placeholder {  color: white !important;  }
-.textare{
+
+.alert {
+    color: white;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: black !important;
+    opacity: 0.5;
+    width: 40%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.success {
+    color: white;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: black !important;
+    opacity: 0.5;
+    width: 40%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::-webkit-input-placeholder {
+    color: #6a6a6a !important;
+    opacity: 1 !important;
+    font-size: 18px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: white !important;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: white !important;
+}
+
+:-ms-input-placeholder {
+    color: white !important;
+}
+
+.textare {
     opacity: 0.7;
     margin-bottom: 2em;
     width: 50% !important;
@@ -375,9 +441,17 @@ h2 {
     margin-left: auto;
     border-radius: 10px;
 }
-.btnsub{display: block;margin-left: auto;margin-right: auto;width: 30%;opacity: 0.9;}
+
+.btnsub {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    opacity: 0.9;
+}
+
 /*Modal*/
-.popup{
+.popup {
     min-width: 200%;
     right: 50%;
     display: block;
@@ -387,38 +461,128 @@ h2 {
     min-height: 50em;
     background-color: black;
 }
-.imagepopup{
+
+.imagepopup {
     min-height: 50em;
     right: 1em;
 
 }
-.imagepopup1{
-    background: url('../img/backg.jpg')no-repeat center center fixed;
+
+.imagepopup1 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.textpopup{
-    font-size: 30px;
-    color: white;
-    background-color: black;
+
+.imagepopup2 {
+    background: url('../img/blindSuns.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
+.imagepopup3 {
+    background: url('../img/graal.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup4 {
+    background: url('../img/hum.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup5 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup6 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.imagepopup7 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup8 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup9 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup10 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup11 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imagepopup12 {
+    background: url('../img/osNoctambulos.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textpopup {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    font-family: "Conv_Museo700-Regular";
+    top: 0em!important;
 
 
+}
 
+#txtart {
+    padding-top: 2%;
+    text-align: justify!important;
+}
 
+#titlepopup{
+    top: inherit!important;
+}
 
-
-
-
-
-
-
-
-
-
+.rs {
+    padding: 2% 2% 2% 2%!important;
+    color: white!important;
+    text-align: center!important;
+}
 
 /*Section et Div*/
 #section1 {
@@ -457,7 +621,7 @@ h2 {
 #section5 {
     z-index: 0;
     background-color: #39408A;
-    min-height: 80em;
+    min-height: 110em;
     background: url("../img/backg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -477,7 +641,7 @@ h2 {
     background-color: #3e3947;
     min-height: 40em;
     max-height: 40em;
-    background: url("../img/gmap.png")no-repeat center center fixed;
+    background: url("../img/gmap.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -521,7 +685,7 @@ h2 {
 #div4 {
     z-index: 30;
     position: relative;
-    background-color:#39408A;
+    background-color: #39408A;
     transform: rotate(-3deg);
     -ms-transform: rotate(-3deg); /* Internet Explorer */
     -moz-transform: rotate(-3deg); /* Firefox */
@@ -563,11 +727,13 @@ h2 {
     font-size: 40px;
 
 }
-.slider{
+
+.slider {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 .carousel {
     top: -10em;
 }
@@ -579,29 +745,36 @@ h2 {
 .carousel-control.left {
     background-image: none !important;
 }
+
 /*nav*/
 .cd-section {
     min-height: 100%;
     position: relative;
     padding: 2em 0;
 }
+
 .cd-section:nth-of-type(odd) {
     background-color: #3e3947;
 }
+
 .cd-section:nth-of-type(odd) p {
     color: #898099;
 }
+
 .cd-section:nth-of-type(even) {
     background-color: #745360;
 }
+
 .cd-section:nth-of-type(even) p {
     color: #bda3ad;
 }
+
 @media only screen and (min-width: 768px) {
     .cd-section h1 {
         font-size: 30px;
         font-size: 1.875rem;
     }
+
     .cd-section p {
         font-size: 20px;
         font-size: 1.25rem;
@@ -627,6 +800,7 @@ h2 {
 /* No Touch devices */
 .cd-nav-trigger {
     display: none;
+
 }
 
 .no-touch #cd-vertical-nav {
@@ -641,20 +815,24 @@ h2 {
     transform: translateY(-50%);
     z-index: 1;
 }
+
 .no-touch #cd-vertical-nav li {
     text-align: right;
 }
+
 .no-touch #cd-vertical-nav a {
     display: inline-block;
     /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+
 .no-touch #cd-vertical-nav a:after {
     content: "";
     display: table;
     clear: both;
 }
+
 .no-touch #cd-vertical-nav a span {
     float: right;
     display: inline-block;
@@ -664,6 +842,7 @@ h2 {
     -o-transform: scale(0.6);
     transform: scale(0.6);
 }
+
 .no-touch #cd-vertical-nav a:hover span {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -671,12 +850,15 @@ h2 {
     -o-transform: scale(1);
     transform: scale(1);
 }
+
 .no-touch #cd-vertical-nav a:hover .cd-label {
     opacity: 1;
 }
+
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
     background-color: white;
 }
+
 .no-touch #cd-vertical-nav .cd-dot {
     position: relative;
     /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
@@ -694,6 +876,7 @@ h2 {
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
+
 .no-touch #cd-vertical-nav .cd-label {
     position: relative;
     margin-right: 10px;
@@ -724,6 +907,7 @@ h2 {
     border-radius: 0.25em;
     background: rgba(255, 255, 255, 0.9);
 }
+
 .touch .cd-nav-trigger span {
     position: absolute;
     height: 4px;
@@ -740,6 +924,7 @@ h2 {
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
 .touch .cd-nav-trigger span::before, .touch .cd-nav-trigger span::after {
     content: '';
     height: 100%;
@@ -749,9 +934,11 @@ h2 {
     background-color: inherit;
     border-radius: inherit;
 }
+
 .touch .cd-nav-trigger span::before {
     top: -9px;
 }
+
 .touch .cd-nav-trigger span::after {
     bottom: -9px;
 }
@@ -785,17 +972,21 @@ h2 {
     border-radius: 0.25em;
     background-color: rgba(255, 255, 255, 0.9);
 }
+
 .touch #cd-vertical-nav a {
     display: block;
     padding: 1em;
     border-bottom: 1px solid rgba(62, 57, 71, 0.1);
 }
+
 .touch #cd-vertical-nav a span:first-child {
     display: none;
 }
+
 .touch #cd-vertical-nav a.is-selected span:last-child {
     color: #d88683;
 }
+
 .touch #cd-vertical-nav.open {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -803,12 +994,15 @@ h2 {
     -o-transform: scale(1);
     transform: scale(1);
 }
+
 .touch #cd-vertical-nav.open + .cd-nav-trigger {
     background-color: transparent;
 }
+
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
     background-color: rgba(62, 57, 71, 0);
 }
+
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
     background-color: #3e3947;
     height: 3px;
@@ -816,6 +1010,7 @@ h2 {
     border-radius: 0;
     left: -8px;
 }
+
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -824,6 +1019,7 @@ h2 {
     transform: rotate(45deg);
     top: 1px;
 }
+
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -832,9 +1028,11 @@ h2 {
     transform: rotate(135deg);
     bottom: 0;
 }
+
 .touch #cd-vertical-nav li:last-child a {
     border-bottom: none;
 }
+
 .cd-scroll-down {
     position: absolute;
     bottom: 20px;
