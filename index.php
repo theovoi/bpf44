@@ -127,48 +127,82 @@
     <div id="div4"></div>
     <h3 id="museo">LE PROGRAMME</h3>
     <div class="bloc1section4 progra">
-        <p>19h00 : Os Noctambulos</p>
-        <p>20h00 : The Bind Suns</p>
-        <p>21h00 : Terreur Passion </p>
-        <p>22h00 : Botine</p>
-        <p>23h00 : Graal</p>
-        <p>00h00 : Florian Tostini</p>
+      
+       
+       <?php
+    $connect = mysql_connect("localhost","root","root");
+                mysql_select_db("bpf");
+                mysql_query("SET NAMES UTF8"); 
+                $query = mysql_query("SELECT * FROM band ORDER BY hour");
+                while($rows = mysql_fetch_array($query)):
+                $id = $rows['id'];
+                $name = $rows['name'];
+$hour = $rows['hour'];
+$date = $rows['date'];
+$img = $rows['img'];
+
+              if($date == "vendredi"){
+                  echo "
+                  <p>$hour : $name </p>
+                  ";
+              }
+                    endwhile;
+                ?>
+
     </div>
     <div class="bloc2section4 progra">
-        <p>19h00 : Humbros</p>
-        <p>20h00 : Groupe </p>
-        <p>21h00 : Groupe </p>
-        <p>22h00 : Groupe </p>
-        <p>23h00 : Groupe </p>
-        <p>00h00 : Groupe </p>
+       
+         <?php
+    $connect = mysql_connect("localhost","root","root");
+                mysql_select_db("bpf");
+                mysql_query("SET NAMES UTF8"); 
+                $query = mysql_query("SELECT * FROM band ORDER BY hour");
+                while($rows = mysql_fetch_array($query)):
+                $id = $rows['id'];
+                $name = $rows['name'];
+$hour = $rows['hour'];
+$date = $rows['date'];
+$img = $rows['img'];
+        
+
+              if($date == "samedi"){
+                  echo "
+                  <p>$hour : $name </p>
+                  ";
+              }
+                    endwhile;
+                ?>
     </div>
 </section>
 
 <section id="section5">
     <h3 id="museo" class="animated bounceInLeft">LES ARTISTES</h3>
     <div class="col-md-10 col-md-offset-1">
-        <div class="col-md-4">
-            <button data-toggle="modal" data-target="#artiste1"><div class="imageartiste"></div></button>
+        
+
+       <?php
+    $connect = mysql_connect("localhost","root","root");
+                mysql_select_db("bpf");
+                mysql_query("SET NAMES UTF8"); 
+                $query = mysql_query("SELECT * FROM band");
+                while($rows = mysql_fetch_array($query)):
+                $id = $rows['id'];
+                $name = $rows['name'];
+$img = $rows['img'];
+                echo "
+                 <div class='col-md-4'>
+            <button data-toggle='modal' data-target='#artiste$id'><div class='imageartiste' style='background:url($img);background-size:cover'></div></button>
+            
         </div>
-        <div class="col-md-4">
-            <button data-toggle="modal" data-target="#artiste2"><div class="imageartiste"></div></button>
-        </div>
-        <div class="col-md-4">
-            <button data-toggle="modal" data-target="#artiste3"><div class="imageartiste"></div></button>
-        </div>
-    </div>
-    <div class="col-md-10 col-md-offset-1">
-        <div class="col-md-4">
-            <button data-toggle="modal" data-target="#artiste4"><div class="imageartiste"></div></button>
-        </div>
-        <div class="col-md-4">
-            <button data-toggle="modal" data-target="#artiste5"><div class="imageartiste"></div></button>
-        </div>
-        <div class="col-md-4">
-            <button data-toggle="modal" data-target="#artiste6"><div class="imageartiste"></div></button>
-        </div>
+                ";
+                    endwhile;
+                ?>
+
     </div>
 </section>
+<style>
+    
+</style>
 
 <section id="section6">
     <h3 id="museo" class="animated bounceInLeft">TIQUETS</h3>
@@ -269,21 +303,34 @@
     <div id="div8"></div>
 </section>
 <!--modal-->
-<div class="modal fade" id="artiste1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="col-md-12 popup">
-                <div class="col-md-6 imagepopup imagepopup1"></div>
-                <div class="col-md-6 textpopup">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Animi consequatur cupiditate dolores, dolorum ducimus esse excepturi,
-                    fugiat fugit in iste itaque libero quis rerum tenetur vitae voluptas voluptate. Animi, magni.
+
+   <?php
+    $connect = mysql_connect("localhost","root","root");
+                mysql_select_db("bpf");
+                mysql_query("SET NAMES UTF8"); 
+                $query = mysql_query("SELECT * FROM band");
+                while($rows = mysql_fetch_array($query)):
+                $id = $rows['id'];
+                $name = $rows['name'];
+$img = $rows['img'];
+    $description = $rows['description'];
+                echo "
+                <div class='modal fade' id='artiste$id' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+    <div class='modal-dialog'>
+        <div class='modal-content'>
+            <div class='col-md-12 popup'>
+                <div class='col-md-6 imagepopup imagepopup1' style='background:url($img);background-size:cover'></div>
+                <div class='col-md-6 textpopup'>
+                    <h3>$name</h3>
+                    <p>$description</p>
                 </div>
             </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
+        </div>
+    </div>
+</div>
+           ";
+                    endwhile;
+                ?>
 </div>
 <script src="js/jquery-2.1.1.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
